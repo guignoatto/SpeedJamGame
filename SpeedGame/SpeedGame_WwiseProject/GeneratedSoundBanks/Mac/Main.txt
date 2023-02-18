@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2199959000	Unlock_Door			\Default Work Unit\ActionsEvents\Unlock_Door	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	105504107	Unlocking	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Mac\SFX\Destrancando_29D52683.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\Unlocking		138860
+

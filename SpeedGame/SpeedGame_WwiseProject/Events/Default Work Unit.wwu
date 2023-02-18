@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{38767048-34B8-4EBB-8282-E8BA65058642}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{38767048-34B8-4EBB-8282-E8BA65058642}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{38767048-34B8-4EBB-8282-E8BA65058642}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="ActionsEvents" ID="{E2AD2A46-3215-4FCC-9884-BFDBE8980F2B}" ShortID="664088463">
+					<ChildrenList>
+						<Event Name="Unlock_Door" ID="{48A80418-449B-4FD5-BDA9-E10465CA9D13}">
+							<ChildrenList>
+								<Action Name="" ID="{E79BB956-F883-4DCB-8487-A02837E9EEA2}" ShortID="1016994638">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Unlocking" ID="{77EE8C0C-F991-46CB-814A-390FC94D3AD7}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

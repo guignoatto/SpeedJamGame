@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{986487A9-2683-E47A-8688-3D0FE6FDB954}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{AB02B046-776C-BA24-8E98-658BEB24ECCE}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -19,13 +19,33 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="393239870" Name="SFX"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3991942870" Name="Music"/>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="988953028" Name="SFXVolume"/>
+				<GameParameter Id="2346531308" Name="MusicVolume"/>
+				<GameParameter Id="2918011349" Name="MasterVolume"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{8AEC33FC-6739-438E-5300-619C2A1F839D}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{D2701E25-CAC3-6A1E-FCF3-3DE092436B76}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="105504107" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Destrancando.wav</ShortName>
+					<CachePath>SFX/Destrancando_29D52683.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2199959000" Name="Unlock_Door" DurationType="OneShot" DurationMin="0.7227254" DurationMax="0.86096084">
+					<MediaRefs>
+						<MediaRef Id="105504107"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D79FF59B-EF74-0890-D547-0470C2DCE695}</FileHash>
+	<FileHash>{5CAB512C-9B8E-0D19-1AB0-87FF5CB9C58C}</FileHash>
 </SoundBanksInfo>

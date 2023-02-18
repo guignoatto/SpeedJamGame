@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4658628B-E1C9-4779-804F-A06D486D5303}" SchemaVersion="110">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{4658628B-E1C9-4779-804F-A06D486D5303}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{4658628B-E1C9-4779-804F-A06D486D5303}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{50296443-3563-45E6-A8E2-FDEB910401D0}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Unlocking" ID="{77EE8C0C-F991-46CB-814A-390FC94D3AD7}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Unlock_Door" ID="{48A80418-449B-4FD5-BDA9-E10465CA9D13}" WorkUnitID="{38767048-34B8-4EBB-8282-E8BA65058642}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>
