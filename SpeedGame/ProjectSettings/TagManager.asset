@@ -41,3 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ground
+    uniqueID: 2004879825
+    locked: 0
+  - name: Things
+    uniqueID: 3330451363
+    locked: 0
