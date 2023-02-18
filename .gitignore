@@ -73,3 +73,5 @@ crashlytics-build.properties
 SpeedGame/Logs
 SpeedGame/Temp
 SpeedGame/Library
+SpeedGame/UserSettings
+SpeedGame/obj/Debug
