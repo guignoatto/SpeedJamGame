@@ -16,6 +16,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="OpenDoor" ID="{9F70ED71-8AF2-46DD-B5AA-B1CE9C7B5D67}">
+							<ChildrenList>
+								<Action Name="" ID="{030E548E-AD7C-4B53-BA21-E5DFEA0F1B88}" ShortID="154777813">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OpeningDoor" ID="{33F286B7-2AA1-48F8-925C-240ECE698BAD}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PressingButton" ID="{A6F2A12C-625E-484B-9D1E-2314F06E3B4E}">
+							<ChildrenList>
+								<Action Name="" ID="{46D51019-75A1-4422-A472-462A86B6ADEE}" ShortID="1004237632">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PressingButton" ID="{F34E03A9-05E0-4A90-8C79-11505BA129AC}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

@@ -100,7 +100,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8b625846c9e17947804fa06d486d5303
     GuidInternal: 
-    m_lastTime: -8585249312168414734
+    m_lastTime: -8585249091651654752
     List:
     - name: Main
       guid: 436429506335e645a8e2fdeb910401d0
@@ -128,8 +128,45 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 48707638b834bb4e8282e8ba65058642
     GuidInternal: 
-    m_lastTime: -8585249415699873698
-    List: []
+    m_lastTime: -8585249091651574964
+    List:
+    - name: ActionsEvents
+      guid: 462aade21532cc4f9884bfdbe8980f2b
+      id: 1351247789
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 48707638b834bb4e8282e8ba65058642
+      - ElementName: ActionsEvents
+        ObjectType: 4
+        guid: 462aade21532cc4f9884bfdbe8980f2b
+      Path: Events\Default Work Unit\ActionsEvents
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Unlock_Door
+      guid: 1804a8489b44d54fbda9e10465ca9d13
+      id: 2199959000
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 48707638b834bb4e8282e8ba65058642
+      - ElementName: ActionsEvents
+        ObjectType: 4
+        guid: 462aade21532cc4f9884bfdbe8980f2b
+      - ElementName: Unlock_Door
+        ObjectType: 3
+        guid: 1804a8489b44d54fbda9e10465ca9d13
+      Path: Events\Default Work Unit\ActionsEvents\Unlock_Door
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:

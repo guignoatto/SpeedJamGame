@@ -29,17 +29,49 @@
 				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{D2701E25-CAC3-6A1E-FCF3-3DE092436B76}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{8B53F970-D368-C26F-CCA1-B394779D8493}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
 				<File Id="105504107" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Destrancando.wav</ShortName>
-					<CachePath>SFX/Destrancando_29D52683.wem</CachePath>
+					<CachePath>SFX/Destrancando_18143395.wem</CachePath>
+				</File>
+				<File Id="228450006" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>556713__nachtmahrtv__squeaking-door.wav</ShortName>
+					<CachePath>SFX/556713__nachtmahrtv__squeaking-door_05BBF1ED.wem</CachePath>
+				</File>
+				<File Id="389396892" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>556713__nachtmahrtv__squeaking-door.wav</ShortName>
+					<CachePath>SFX/556713__nachtmahrtv__squeaking-door_0A0978F8.wem</CachePath>
+				</File>
+				<File Id="652907314" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>556713__nachtmahrtv__squeaking-door.wav</ShortName>
+					<CachePath>SFX/556713__nachtmahrtv__squeaking-door_23D1A4C8.wem</CachePath>
+				</File>
+				<File Id="777090758" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>556713__nachtmahrtv__squeaking-door.wav</ShortName>
+					<CachePath>SFX/556713__nachtmahrtv__squeaking-door_33DEFE88.wem</CachePath>
+				</File>
+				<File Id="851453980" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CaixaPesada.wav</ShortName>
+					<CachePath>SFX/CaixaPesada_6B0053A0.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2199959000" Name="Unlock_Door" DurationType="OneShot" DurationMin="0.7227254" DurationMax="0.86096084">
+				<Event Id="2122995345" Name="OpenDoor" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.7391491" DurationMax="1.1088518">
+					<MediaRefs>
+						<MediaRef Id="389396892"/>
+						<MediaRef Id="652907314"/>
+						<MediaRef Id="777090758"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="764395510" Name="PressingButton" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.25006136" DurationMax="0.25006136">
+					<MediaRefs>
+						<MediaRef Id="851453980"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2199959000" Name="Unlock_Door" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.7227254" DurationMax="0.86096084">
 					<MediaRefs>
 						<MediaRef Id="105504107"/>
 					</MediaRefs>
@@ -47,5 +79,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5CAB512C-9B8E-0D19-1AB0-87FF5CB9C58C}</FileHash>
+	<FileHash>{79162398-3AB2-88C1-B3AB-F3B17E1D0839}</FileHash>
 </SoundBanksInfo>
