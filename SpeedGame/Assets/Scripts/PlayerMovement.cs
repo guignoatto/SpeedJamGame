@@ -13,10 +13,10 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Transform _arrow;
     [SerializeField] private BoxCollider2D _boxCollider2D;
 
+    public int ActiveAgent = 0;
 
     private PlayerView _playerView;
     
-    private int _activeAgent = 0;
 
     void Start()
     {
@@ -44,8 +44,8 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetMouseButtonDown(1))
         {
             HandleMouseClick();
-            _playerView.SetUpArrow(_activeAgent);
-            _arrow.parent = _targets[_activeAgent];
+            _playerView.SetUpArrow(ActiveAgent);
+            _arrow.parent = _targets[ActiveAgent];
             _arrow.localPosition = Vector2.zero;
         }
         if (Input.GetKeyDown(KeyCode.Space))
@@ -53,25 +53,24 @@ public class PlayerMovement : MonoBehaviour
             _boxCollider2D.gameObject.SetActive(!_boxCollider2D.gameObject.activeSelf);
         }
 
-        if (Input.GetKeyDown(KeyCode.Q)) _activeAgent = 0;
-        if (Input.GetKeyDown(KeyCode.W)) _activeAgent = 1;
-        if (Input.GetKeyDown(KeyCode.E)) _activeAgent = 2;
-        if (Input.GetKeyDown(KeyCode.R)) _activeAgent = 3;
+        if (Input.GetKeyDown(KeyCode.Q)) ActiveAgent = 0;
+        if (Input.GetKeyDown(KeyCode.W)) ActiveAgent = 1;
+        if (Input.GetKeyDown(KeyCode.E)) ActiveAgent = 2;
+        if (Input.GetKeyDown(KeyCode.R)) ActiveAgent = 3;
     }
 
     private void HandleMouseClick()
     {
         var mousePosition = _camera.ScreenToWorldPoint(Input.mousePosition);
-        mousePosition.z = _agents[_activeAgent].transform.position.z;
+        mousePosition.z = _agents[ActiveAgent].transform.position.z;
         
-        _targets[_activeAgent].position = mousePosition;
+        _targets[ActiveAgent].position = mousePosition;
 
-        _agents[_activeAgent].SetDestination(_targets[_activeAgent].position);
+        _agents[ActiveAgent].SetDestination(_targets[ActiveAgent].position);
 
     }
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        Debug.Log("TouchedArea");
     }
 }
