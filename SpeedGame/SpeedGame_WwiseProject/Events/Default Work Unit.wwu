@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{38767048-34B8-4EBB-8282-E8BA65058642}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{38767048-34B8-4EBB-8282-E8BA65058642}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{38767048-34B8-4EBB-8282-E8BA65058642}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="ActionsEvents" ID="{E2AD2A46-3215-4FCC-9884-BFDBE8980F2B}" ShortID="664088463">
+					<ChildrenList>
+						<Event Name="Unlock_Door" ID="{48A80418-449B-4FD5-BDA9-E10465CA9D13}">
+							<ChildrenList>
+								<Action Name="" ID="{E79BB956-F883-4DCB-8487-A02837E9EEA2}" ShortID="1016994638">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Unlocking" ID="{77EE8C0C-F991-46CB-814A-390FC94D3AD7}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="OpenDoor" ID="{9F70ED71-8AF2-46DD-B5AA-B1CE9C7B5D67}">
+							<ChildrenList>
+								<Action Name="" ID="{030E548E-AD7C-4B53-BA21-E5DFEA0F1B88}" ShortID="154777813">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OpeningDoor" ID="{33F286B7-2AA1-48F8-925C-240ECE698BAD}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PressingButton" ID="{A6F2A12C-625E-484B-9D1E-2314F06E3B4E}">
+							<ChildrenList>
+								<Action Name="" ID="{46D51019-75A1-4422-A472-462A86B6ADEE}" ShortID="1004237632">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PressingButton" ID="{F34E03A9-05E0-4A90-8C79-11505BA129AC}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
