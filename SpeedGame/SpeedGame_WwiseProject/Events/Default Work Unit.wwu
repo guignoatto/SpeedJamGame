@@ -40,6 +40,21 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="UiEvents" ID="{3C36E522-F079-4627-8DAE-0770082D04E4}" ShortID="881357283">
+					<ChildrenList>
+						<Event Name="ButtonPress" ID="{270CD84A-E867-451C-A564-26DB788C0CAF}">
+							<ChildrenList>
+								<Action Name="" ID="{1FE5157E-00AF-4686-8A09-7746579974D7}" ShortID="652305944">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Button" ID="{0098F649-1954-431A-BFA5-2F27DA52F264}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

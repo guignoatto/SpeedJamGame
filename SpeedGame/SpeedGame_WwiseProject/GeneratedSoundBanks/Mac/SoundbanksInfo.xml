@@ -29,13 +29,17 @@
 				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{8B53F970-D368-C26F-CCA1-B394779D8493}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{5168334B-8706-6170-A8C8-A92C1735C6D5}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
 				<File Id="105504107" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Destrancando.wav</ShortName>
 					<CachePath>SFX/Destrancando_18143395.wem</CachePath>
+				</File>
+				<File Id="216302046" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Button.wav</ShortName>
+					<CachePath>SFX/Button_78AC1C0B.wem</CachePath>
 				</File>
 				<File Id="228450006" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>556713__nachtmahrtv__squeaking-door.wav</ShortName>
@@ -55,10 +59,15 @@
 				</File>
 				<File Id="851453980" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>CaixaPesada.wav</ShortName>
-					<CachePath>SFX/CaixaPesada_6B0053A0.wem</CachePath>
+					<CachePath>SFX/CaixaPesada_92FEEB54.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
+				<Event Id="317641954" Name="ButtonPress" DurationType="OneShot" DurationMin="0.46822304" DurationMax="0.46822304">
+					<MediaRefs>
+						<MediaRef Id="216302046"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2122995345" Name="OpenDoor" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.7391491" DurationMax="1.1088518">
 					<MediaRefs>
 						<MediaRef Id="389396892"/>
@@ -79,5 +88,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D9C9F689-A45B-047C-8D42-034BC4E15D7A}</FileHash>
+	<FileHash>{74EF5CF5-F97F-E924-B9FA-5F141D1EF959}</FileHash>
 </SoundBanksInfo>

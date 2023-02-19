@@ -297,6 +297,50 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
+						<Folder Name="Ui" ID="{6F253847-3CD4-48B2-A428-9EA327B7C788}" ShortID="481721248">
+							<ChildrenList>
+								<Sound Name="Button" ID="{0098F649-1954-431A-BFA5-2F27DA52F264}" ShortID="77093908">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>50</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FB80E47F-0CC7-4166-8A2D-39890E0BE6E3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{FDE6155F-69D0-445C-B055-28867DDD7ECC}" WorkUnitID="{69610C4D-9D7E-4F94-B66C-9C1ACBF00562}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Button" ID="{EFD87D4C-640E-4821-806B-94F851E41E8F}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0411917098445596"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.210077720207254"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.481943005181347"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Button.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="216302046"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Button" ID="{EFD87D4C-640E-4821-806B-94F851E41E8F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

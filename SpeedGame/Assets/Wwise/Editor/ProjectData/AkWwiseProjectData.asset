@@ -100,7 +100,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8b625846c9e17947804fa06d486d5303
     GuidInternal: 
-    m_lastTime: -8585249091651654752
+    m_lastTime: -8585248410392695460
     List:
     - name: Main
       guid: 436429506335e645a8e2fdeb910401d0
@@ -128,7 +128,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 48707638b834bb4e8282e8ba65058642
     GuidInternal: 
-    m_lastTime: -8585249091651574964
+    m_lastTime: -8585248410392665537
     List:
     - name: ActionsEvents
       guid: 462aade21532cc4f9884bfdbe8980f2b
@@ -144,6 +144,83 @@ MonoBehaviour:
         ObjectType: 4
         guid: 462aade21532cc4f9884bfdbe8980f2b
       Path: Events\Default Work Unit\ActionsEvents
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ButtonPress
+      guid: 4ad80c2767e81c45a56426db788c0caf
+      id: 317641954
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 48707638b834bb4e8282e8ba65058642
+      - ElementName: UiEvents
+        ObjectType: 4
+        guid: 22e5363c79f027468dae0770082d04e4
+      - ElementName: ButtonPress
+        ObjectType: 3
+        guid: 4ad80c2767e81c45a56426db788c0caf
+      Path: Events\Default Work Unit\UiEvents\ButtonPress
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: OpenDoor
+      guid: 71ed709ff28add46b5aab1ce9c7b5d67
+      id: 2122995345
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 48707638b834bb4e8282e8ba65058642
+      - ElementName: ActionsEvents
+        ObjectType: 4
+        guid: 462aade21532cc4f9884bfdbe8980f2b
+      - ElementName: OpenDoor
+        ObjectType: 3
+        guid: 71ed709ff28add46b5aab1ce9c7b5d67
+      Path: Events\Default Work Unit\ActionsEvents\OpenDoor
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PressingButton
+      guid: 2ca1f2a65e624b489d1e2314f06e3b4e
+      id: 764395510
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 48707638b834bb4e8282e8ba65058642
+      - ElementName: ActionsEvents
+        ObjectType: 4
+        guid: 462aade21532cc4f9884bfdbe8980f2b
+      - ElementName: PressingButton
+        ObjectType: 3
+        guid: 2ca1f2a65e624b489d1e2314f06e3b4e
+      Path: Events\Default Work Unit\ActionsEvents\PressingButton
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: UiEvents
+      guid: 22e5363c79f027468dae0770082d04e4
+      id: 749158460
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 48707638b834bb4e8282e8ba65058642
+      - ElementName: UiEvents
+        ObjectType: 4
+        guid: 22e5363c79f027468dae0770082d04e4
+      Path: Events\Default Work Unit\UiEvents
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -289,7 +366,7 @@ MonoBehaviour:
     m_lastTime: -8585249415700552114
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 01000000050000000600000007000000080000000b0000000c0000000d000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
