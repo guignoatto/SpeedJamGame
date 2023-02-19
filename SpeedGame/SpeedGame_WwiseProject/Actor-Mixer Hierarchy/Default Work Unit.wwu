@@ -1,6 +1,305 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{FD19563F-177B-4122-8032-5A27D1F8ED25}" SchemaVersion="110">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{FD19563F-177B-4122-8032-5A27D1F8ED25}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{FD19563F-177B-4122-8032-5A27D1F8ED25}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="SFX" ID="{0966AD35-365E-4FA1-B8CD-773AC43D4B79}" ShortID="168549745">
+					<ChildrenList>
+						<ActorMixer Name="Actions" ID="{CD90A948-2F91-4A46-AD67-78324F1FA04E}" ShortID="38975395">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="EnableAtt" ID="{2D56354D-0921-4F41-A038-324D56521C3C}" WorkUnitID="{26760E07-5CE5-4A68-8D9C-5E1214B4C28E}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FB80E47F-0CC7-4166-8A2D-39890E0BE6E3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{FDE6155F-69D0-445C-B055-28867DDD7ECC}" WorkUnitID="{69610C4D-9D7E-4F94-B66C-9C1ACBF00562}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Unlocking" ID="{77EE8C0C-F991-46CB-814A-390FC94D3AD7}" ShortID="855104001">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F95E129D-AFE5-4783-863C-7738800A2E2E}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-303"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FB80E47F-0CC7-4166-8A2D-39890E0BE6E3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69610C4D-9D7E-4F94-B66C-9C1ACBF00562}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Destrancando" ID="{B296F997-AD73-4959-A1BB-C06B40636137}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.192478411053541"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.445804835924007"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.722725388601036"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Destrancando.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="105504107"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Destrancando" ID="{B296F997-AD73-4959-A1BB-C06B40636137}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SqueakingDoor" ID="{54B2A698-6459-4AFC-8962-5E945E64B858}" ShortID="610535840">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-530</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FB80E47F-0CC7-4166-8A2D-39890E0BE6E3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69610C4D-9D7E-4F94-B66C-9C1ACBF00562}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="556713__nachtmahrtv__squeaking-door" ID="{3601D784-1B67-41A6-83E5-A1CF25CA41C2}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.490407154707906"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.490407154707906"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="21.5007091741771"/>
+												<Property Name="TrimEnd" Type="Real64" Value="22.1006240107301"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>556713__nachtmahrtv__squeaking-door.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="228450006"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="556713__nachtmahrtv__squeaking-door" ID="{3601D784-1B67-41A6-83E5-A1CF25CA41C2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PressingButton" ID="{F34E03A9-05E0-4A90-8C79-11505BA129AC}" ShortID="975588065">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-710</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FB80E47F-0CC7-4166-8A2D-39890E0BE6E3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69610C4D-9D7E-4F94-B66C-9C1ACBF00562}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CaixaPesada" ID="{0045ABEA-9E06-4E2A-B056-24CFD251ABC0}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0702031417057324"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.165934698577186"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.19018669298462"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.356121391561806"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>CaixaPesada.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="851453980"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="CaixaPesada" ID="{0045ABEA-9E06-4E2A-B056-24CFD251ABC0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="OpeningDoor" ID="{33F286B7-2AA1-48F8-925C-240ECE698BAD}" ShortID="533655421">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FB80E47F-0CC7-4166-8A2D-39890E0BE6E3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69610C4D-9D7E-4F94-B66C-9C1ACBF00562}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="OpenDoor1" ID="{75A46AAC-E010-402D-9008-DBB6E70D5442}" ShortID="211262142">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-530</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FB80E47F-0CC7-4166-8A2D-39890E0BE6E3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69610C4D-9D7E-4F94-B66C-9C1ACBF00562}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="556713__nachtmahrtv__squeaking-door" ID="{240DDD49-E1CE-4E88-8DBF-43BC77E7F34B}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.664539070052342"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.664539070052342"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="41.231559636982"/>
+														<Property Name="TrimEnd" Type="Real64" Value="42.0479889338304"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>556713__nachtmahrtv__squeaking-door.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="652907314"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="556713__nachtmahrtv__squeaking-door" ID="{240DDD49-E1CE-4E88-8DBF-43BC77E7F34B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="OpenDoor2" ID="{8FCBAB56-982F-4DDD-BC5C-A9FE3AE1BA48}" ShortID="401898408">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-530</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FB80E47F-0CC7-4166-8A2D-39890E0BE6E3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69610C4D-9D7E-4F94-B66C-9C1ACBF00562}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="556713__nachtmahrtv__squeaking-door" ID="{AE242838-D140-4509-AB8D-5AB11396B75F}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.357493900411534"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.357493900411534"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="61.6248719367556"/>
+														<Property Name="TrimEnd" Type="Real64" Value="62.1690952469153"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>556713__nachtmahrtv__squeaking-door.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="777090758"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="556713__nachtmahrtv__squeaking-door" ID="{AE242838-D140-4509-AB8D-5AB11396B75F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="OpenDoor3" ID="{350878F5-C998-4E2B-ABF6-DF4EB121F472}" ShortID="933979995">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-530</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FB80E47F-0CC7-4166-8A2D-39890E0BE6E3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69610C4D-9D7E-4F94-B66C-9C1ACBF00562}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="556713__nachtmahrtv__squeaking-door" ID="{FF164A2E-5B52-44B1-BEAC-15ABDDB4D684}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.490407154707906"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.595515117719717"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="21.5095086118437"/>
+														<Property Name="TrimEnd" Type="Real64" Value="22.1050237295634"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>556713__nachtmahrtv__squeaking-door.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="389396892"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="556713__nachtmahrtv__squeaking-door" ID="{FF164A2E-5B52-44B1-BEAC-15ABDDB4D684}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

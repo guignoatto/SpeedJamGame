@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{973C29C5-6B6B-DA93-F194-21C3B4783CF6}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -19,13 +19,65 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="393239870" Name="SFX"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3991942870" Name="Music"/>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="988953028" Name="SFXVolume"/>
+				<GameParameter Id="2346531308" Name="MusicVolume"/>
+				<GameParameter Id="2918011349" Name="MasterVolume"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{8AEC33FC-6739-438E-5300-619C2A1F839D}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{8B53F970-D368-C26F-CCA1-B394779D8493}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="105504107" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Destrancando.wav</ShortName>
+					<CachePath>SFX/Destrancando_18143395.wem</CachePath>
+				</File>
+				<File Id="228450006" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>556713__nachtmahrtv__squeaking-door.wav</ShortName>
+					<CachePath>SFX/556713__nachtmahrtv__squeaking-door_05BBF1ED.wem</CachePath>
+				</File>
+				<File Id="389396892" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>556713__nachtmahrtv__squeaking-door.wav</ShortName>
+					<CachePath>SFX/556713__nachtmahrtv__squeaking-door_0A0978F8.wem</CachePath>
+				</File>
+				<File Id="652907314" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>556713__nachtmahrtv__squeaking-door.wav</ShortName>
+					<CachePath>SFX/556713__nachtmahrtv__squeaking-door_23D1A4C8.wem</CachePath>
+				</File>
+				<File Id="777090758" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>556713__nachtmahrtv__squeaking-door.wav</ShortName>
+					<CachePath>SFX/556713__nachtmahrtv__squeaking-door_33DEFE88.wem</CachePath>
+				</File>
+				<File Id="851453980" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CaixaPesada.wav</ShortName>
+					<CachePath>SFX/CaixaPesada_6B0053A0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2122995345" Name="OpenDoor" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.7391491" DurationMax="1.1088518">
+					<MediaRefs>
+						<MediaRef Id="389396892"/>
+						<MediaRef Id="652907314"/>
+						<MediaRef Id="777090758"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="764395510" Name="PressingButton" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.25006136" DurationMax="0.25006136">
+					<MediaRefs>
+						<MediaRef Id="851453980"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2199959000" Name="Unlock_Door" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.7227254" DurationMax="0.86096084">
+					<MediaRefs>
+						<MediaRef Id="105504107"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{102F7A1F-1B42-C3C3-546D-064C883A2DB3}</FileHash>
+	<FileHash>{D9C9F689-A45B-047C-8D42-034BC4E15D7A}</FileHash>
 </SoundBanksInfo>
