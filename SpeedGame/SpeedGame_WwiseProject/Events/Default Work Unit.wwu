@@ -5,12 +5,12 @@
 			<ChildrenList>
 				<Folder Name="ActionsEvents" ID="{E2AD2A46-3215-4FCC-9884-BFDBE8980F2B}" ShortID="664088463">
 					<ChildrenList>
-						<Event Name="Unlock_Door" ID="{48A80418-449B-4FD5-BDA9-E10465CA9D13}">
+						<Event Name="LockPickDoor" ID="{48A80418-449B-4FD5-BDA9-E10465CA9D13}">
 							<ChildrenList>
-								<Action Name="" ID="{E79BB956-F883-4DCB-8487-A02837E9EEA2}" ShortID="1016994638">
+								<Action Name="" ID="{4366067E-067A-4C30-88A5-116EE468C085}" ShortID="388800232">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Unlocking" ID="{77EE8C0C-F991-46CB-814A-390FC94D3AD7}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}"/>
+											<ObjectRef Name="LockPickDoor" ID="{6C738D11-0EA3-4E9A-8CF0-94D17DEE0E34}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -38,6 +38,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="CollectItem" ID="{CA3CD2BB-DA31-4DB8-9FBB-A4518C13A191}">
+							<ChildrenList>
+								<Action Name="" ID="{D7EA7E16-239D-4A81-835E-67877AEA8248}" ShortID="97314671">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PickUp" ID="{B40F4639-6B18-471E-AAF7-DBC0BCDA39C4}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UiEvents" ID="{3C36E522-F079-4627-8DAE-0770082D04E4}" ShortID="881357283">
@@ -48,6 +59,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Button" ID="{0098F649-1954-431A-BFA5-2F27DA52F264}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Dialogue" ID="{C203EFEB-2D94-4ED0-96F0-8B459C221386}">
+							<ChildrenList>
+								<Action Name="" ID="{F13DCEA5-0E1F-4D59-8988-A8B2A301E755}" ShortID="890791304">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dialogue" ID="{06422C8F-2130-499E-A45E-BBABEC7922EA}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

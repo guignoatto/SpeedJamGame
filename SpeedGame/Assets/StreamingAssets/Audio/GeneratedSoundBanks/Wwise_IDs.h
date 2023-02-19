@@ -14,9 +14,11 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID BUTTONPRESS = 317641954U;
+        static const AkUniqueID COLLECTITEM = 3845573156U;
+        static const AkUniqueID DIALOGUE = 3930136735U;
+        static const AkUniqueID LOCKPICKDOOR = 244100751U;
         static const AkUniqueID OPENDOOR = 2122995345U;
         static const AkUniqueID PRESSINGBUTTON = 764395510U;
-        static const AkUniqueID UNLOCK_DOOR = 2199959000U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS

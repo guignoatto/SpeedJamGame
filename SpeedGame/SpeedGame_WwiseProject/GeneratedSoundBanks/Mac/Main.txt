@@ -1,15 +1,20 @@
 Event	ID	Name			Wwise Object Path	Notes
+	244100751	LockPickDoor			\Default Work Unit\ActionsEvents\LockPickDoor	
 	317641954	ButtonPress			\Default Work Unit\UiEvents\ButtonPress	
 	764395510	PressingButton			\Default Work Unit\ActionsEvents\PressingButton	
 	2122995345	OpenDoor			\Default Work Unit\ActionsEvents\OpenDoor	
-	2199959000	Unlock_Door			\Default Work Unit\ActionsEvents\Unlock_Door	
+	3845573156	CollectItem			\Default Work Unit\ActionsEvents\CollectItem	
+	3930136735	Dialogue			\Default Work Unit\UiEvents\Dialogue	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	105504107	Unlocking	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Mac\SFX\Destrancando_18143395.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\Unlocking		138860
+	105504107	Unlocking	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Mac\SFX\Destrancando_18143395.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\LockPickDoor\Unlocking		138860
 	216302046	Button	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Mac\SFX\Button_78AC1C0B.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ui\Button		42604
 	228450006	SqueakingDoor	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Mac\SFX\556713__nachtmahrtv__squeaking-door_05BBF1ED.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\SqueakingDoor		105920
+	316074698	PickUp	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Mac\SFX\PickUp_5868952D.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\PickUp		35938
 	389396892	OpenDoor3	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Mac\SFX\556713__nachtmahrtv__squeaking-door_0A0978F8.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\OpeningDoor\OpenDoor3		105144
+	424463840	Dialogue	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Mac\SFX\Dialogue_DE6F9BFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ui\Dialogue		7276
 	652907314	OpenDoor1	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Mac\SFX\556713__nachtmahrtv__squeaking-door_23D1A4C8.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\OpeningDoor\OpenDoor1		144112
 	777090758	OpenDoor2	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Mac\SFX\556713__nachtmahrtv__squeaking-door_33DEFE88.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\OpeningDoor\OpenDoor2		96096
+	789988452	Collect	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Mac\SFX\Collect_F62C3327.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\Collect		42358
 	851453980	PressingButton	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Mac\SFX\CaixaPesada_92FEEB54.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\PressingButton		14732
 

@@ -29,7 +29,7 @@
 				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{5168334B-8706-6170-A8C8-A92C1735C6D5}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{B59CFC33-24A7-E3D2-6956-A99FB0DAD90C}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -45,9 +45,17 @@
 					<ShortName>556713__nachtmahrtv__squeaking-door.wav</ShortName>
 					<CachePath>SFX/556713__nachtmahrtv__squeaking-door_05BBF1ED.wem</CachePath>
 				</File>
+				<File Id="316074698" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PickUp.wav</ShortName>
+					<CachePath>SFX/PickUp_5868952D.wem</CachePath>
+				</File>
 				<File Id="389396892" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>556713__nachtmahrtv__squeaking-door.wav</ShortName>
 					<CachePath>SFX/556713__nachtmahrtv__squeaking-door_0A0978F8.wem</CachePath>
+				</File>
+				<File Id="424463840" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dialogue.wav</ShortName>
+					<CachePath>SFX/Dialogue_DE6F9BFB.wem</CachePath>
 				</File>
 				<File Id="652907314" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>556713__nachtmahrtv__squeaking-door.wav</ShortName>
@@ -56,6 +64,10 @@
 				<File Id="777090758" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>556713__nachtmahrtv__squeaking-door.wav</ShortName>
 					<CachePath>SFX/556713__nachtmahrtv__squeaking-door_33DEFE88.wem</CachePath>
+				</File>
+				<File Id="789988452" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Collect.wav</ShortName>
+					<CachePath>SFX/Collect_F62C3327.wem</CachePath>
 				</File>
 				<File Id="851453980" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>CaixaPesada.wav</ShortName>
@@ -66,6 +78,24 @@
 				<Event Id="317641954" Name="ButtonPress" DurationType="OneShot" DurationMin="0.46822304" DurationMax="0.46822304">
 					<MediaRefs>
 						<MediaRef Id="216302046"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3845573156" Name="CollectItem" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.46411812" DurationMax="0.46411812">
+					<MediaRefs>
+						<MediaRef Id="316074698"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3930136735" Name="Dialogue" DurationType="OneShot" DurationMin="0.023877643" DurationMax="0.08509024">
+					<MediaRefs>
+						<MediaRef Id="424463840"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="244100751" Name="LockPickDoor" MaxAttenuation="15" DurationType="OneShot" DurationMin="1.4618745" DurationMax="1.9698126">
+					<MediaRefs>
+						<MediaRef Id="105504107"/>
+						<MediaRef Id="389396892"/>
+						<MediaRef Id="652907314"/>
+						<MediaRef Id="777090758"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2122995345" Name="OpenDoor" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.7391491" DurationMax="1.1088518">
@@ -80,13 +110,8 @@
 						<MediaRef Id="851453980"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2199959000" Name="Unlock_Door" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.7227254" DurationMax="0.86096084">
-					<MediaRefs>
-						<MediaRef Id="105504107"/>
-					</MediaRefs>
-				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{75EF9F2E-4AB1-FF73-E6DA-83B8BBA151CB}</FileHash>
+	<FileHash>{7201AB09-FCEE-812B-E962-12EEE4770164}</FileHash>
 </SoundBanksInfo>
