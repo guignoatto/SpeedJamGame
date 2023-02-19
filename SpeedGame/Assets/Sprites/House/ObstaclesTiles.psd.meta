@@ -1,0 +1,801 @@
+fileFormatVersion: 2
+guid: 8b088ecd11a8242498420e01734ec93c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ObstaclesTiles_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 377
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb9dd973b0c105429d62e0df59ab61c
+      internalID: 692377054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObstaclesTiles_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 369
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8e534c09974f94bbaddd9d171629e7
+      internalID: -1649515778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObstaclesTiles_2
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 343
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7113765638ac0da4fbf90d70c4ec900f
+      internalID: 1820229767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObstaclesTiles_3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 369
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3642d4e4866a44abf99433c0740af2
+      internalID: -1233703334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObstaclesTiles_4
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 327
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad440c133dc2a547b4cb8f704adb2e0
+      internalID: 347877633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObstaclesTiles_5
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 270
+        width: 60
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7132557e56e67774d9fca4295beb8b6e
+      internalID: 314918618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObstaclesTiles_6
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 243
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 11, y: -15}
+        - {x: 7, y: -22}
+        - {x: -6, y: -22}
+        - {x: -11, y: -13}
+        - {x: -26, y: -12}
+        - {x: -26, y: 11}
+        - {x: -19, y: 11}
+        - {x: -9, y: 13}
+        - {x: -6, y: 22}
+        - {x: 7, y: 22}
+        - {x: 12, y: 14}
+        - {x: 19, y: 11}
+        - {x: 26, y: 10}
+        - {x: 26, y: -13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6257b162599404b82e302d09d24136
+      internalID: -529590826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObstaclesTiles_7
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 206
+        width: 15
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c612191d469a64b8e421a69986fec0
+      internalID: 1028854291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObstaclesTiles_8
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 126
+        width: 52
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f141415601a23241a5cc0afd6d22df5
+      internalID: -1115742094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObstaclesTiles_9
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 155
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -10}
+        - {x: -12, y: 8}
+        - {x: 12, y: 8}
+        - {x: 12, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1929cec127cc27a4e9793e693bbd05f5
+      internalID: 209097194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObstaclesTiles_10
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 130
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d49bc68fd2e44a488d78149b933456e
+      internalID: 1905007508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObstaclesTiles_11
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 131
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce353c0c8602484c99d21803474dc8e
+      internalID: -786248435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObstaclesTiles_12
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 117
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860e5875a17195648bf743132e70d9dc
+      internalID: -763077752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObstaclesTiles_13
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 330
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28b10ba9f0e87b48b409e974ef24a0f
+      internalID: 530106630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObstaclesTiles_14
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 331
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03a237b2e294a8469062b0984528763
+      internalID: 315304247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObstaclesTiles_15
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 331
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce6e19ba10d798408aa7b9a1d8e9a06
+      internalID: 53075770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObstaclesTiles_16
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 312
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f3495127fe5cc4085544d3d17f2119
+      internalID: -1533116499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObstaclesTiles_17
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 290
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63cac0752c897d448baa26b61b721e5
+      internalID: -1709339771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObstaclesTiles_18
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 290
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa69a3d3bfbf434c87436531693fe04
+      internalID: 1504728501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObstaclesTiles_19
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 370
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7628dc5364c1aeb4c89f230f17542029
+      internalID: 2017550112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObstaclesTiles_20
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd72dccab8bf7c34eb2fffd687288113
+      internalID: 1017436170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObstaclesTiles_21
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 396
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae998a347007b145902567518bf36ae
+      internalID: -956251422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObstaclesTiles_22
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 416
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5b2c0e66f1b9d4aba12b515963c004
+      internalID: -1339687361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObstaclesTiles_23
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 436
+        width: 4
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa878f0ed542db4c956e0e05bc9e997
+      internalID: 1084765649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObstaclesTiles_24
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 436
+        width: 4
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb7d82559d4117458973c8b6d80e67a
+      internalID: -237529293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObstaclesTiles_25
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 400
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a5281e952cab946b13d00f9c0ee211
+      internalID: 673632060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObstaclesTiles_27
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 396
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a9e80be2278b747a0848d39001aef9
+      internalID: -1893583949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObstaclesTiles_28
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 400
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 26, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: -10, y: 16}
+        - {x: -10, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc77500b3e051e845a970b836eeaec1d
+      internalID: 840300903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ObstaclesTiles_26
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 437
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: -10, y: 16}
+        - {x: -10, y: -7}
+        - {x: 16, y: -7}
+        - {x: 16, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5298caceaa33c7e4d9523ee134bf80f7
+      internalID: 354297613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ObstaclesTiles_0: 692377054
+      ObstaclesTiles_1: -1649515778
+      ObstaclesTiles_10: 314918618
+      ObstaclesTiles_11: -529590826
+      ObstaclesTiles_12: 1028854291
+      ObstaclesTiles_13: 1004587447
+      ObstaclesTiles_14: 315304247
+      ObstaclesTiles_15: 53075770
+      ObstaclesTiles_16: -1533116499
+      ObstaclesTiles_17: -1709339771
+      ObstaclesTiles_18: 1504728501
+      ObstaclesTiles_19: 2017550112
+      ObstaclesTiles_2: -1115742094
+      ObstaclesTiles_20: 1017436170
+      ObstaclesTiles_21: -956251422
+      ObstaclesTiles_22: -1339687361
+      ObstaclesTiles_23: 1084765649
+      ObstaclesTiles_24: -237529293
+      ObstaclesTiles_25: 673632060
+      ObstaclesTiles_26: 354297613
+      ObstaclesTiles_27: -1893583949
+      ObstaclesTiles_28: 840300903
+      ObstaclesTiles_3: 209097194
+      ObstaclesTiles_4: 1905007508
+      ObstaclesTiles_5: -786248435
+      ObstaclesTiles_6: -763077752
+      ObstaclesTiles_7: 1820229767
+      ObstaclesTiles_8: -1233703334
+      ObstaclesTiles_9: 347877633
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

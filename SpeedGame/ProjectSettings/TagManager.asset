@@ -45,6 +45,9 @@ TagManager:
   - name: Ground
     uniqueID: 2004879825
     locked: 0
-  - name: Things
+  - name: Hover
     uniqueID: 3330451363
+    locked: 0
+  - name: Obstacles
+    uniqueID: 2163298369
     locked: 0
