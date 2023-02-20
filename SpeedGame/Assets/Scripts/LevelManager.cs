@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
@@ -15,6 +16,11 @@ public class LevelManager : MonoBehaviour
     private bool gameEnded = false;
     private LevelManagerView _levelManagerView;
 
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
     private void Start()
     {
         _itemCollector = GameObject.FindObjectOfType<ItemCollector>();
@@ -39,6 +45,13 @@ public class LevelManager : MonoBehaviour
             string seconds = (timer % 60).ToString("00");
             _levelManagerView.timer.text = minutes + ":" + seconds;
         }
+
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            SceneManager.LoadScene("SampleScene");
+        }
+        
+        
     }
 
     private void ShowLeaderboard()
