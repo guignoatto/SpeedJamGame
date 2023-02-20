@@ -29,13 +29,17 @@
 				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{8ED68F1B-02DD-336F-515F-A4DAB19701C2}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{B255BA81-F2BE-B334-361D-9A7D039A25FD}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
 				<File Id="105504107" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Destrancando.wav</ShortName>
 					<CachePath>SFX/Destrancando_2E056AB1.wem</CachePath>
+				</File>
+				<File Id="159532433" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>TestMusic.wav</ShortName>
+					<CachePath>SFX/TestMusic_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="216302046" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Button.wav</ShortName>
@@ -90,12 +94,17 @@
 						<MediaRef Id="424463840"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="244100751" Name="LockPickDoor" MaxAttenuation="15" DurationType="OneShot" DurationMin="3.1569264" DurationMax="3.9890766">
+				<Event Id="244100751" Name="LockPickDoor" MaxAttenuation="15" DurationType="OneShot" DurationMin="5.182551" DurationMax="5.5522537">
 					<MediaRefs>
 						<MediaRef Id="105504107"/>
 						<MediaRef Id="389396892"/>
 						<MediaRef Id="652907314"/>
 						<MediaRef Id="777090758"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3341137194" Name="MusicEvent" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="159532433"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2122995345" Name="OpenDoor" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.7391491" DurationMax="1.1088518">
@@ -113,5 +122,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{47A029B2-E4FD-7A7C-1A00-54B1074097A2}</FileHash>
+	<FileHash>{527789C4-705A-3DDA-2003-7D5D0FE4C685}</FileHash>
 </SoundBanksInfo>

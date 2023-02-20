@@ -100,7 +100,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8b625846c9e17947804fa06d486d5303
     GuidInternal: 
-    m_lastTime: -8585247619708593310
+    m_lastTime: -8585247233165576316
     List:
     - name: Main
       guid: 436429506335e645a8e2fdeb910401d0
@@ -128,7 +128,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 48707638b834bb4e8282e8ba65058642
     GuidInternal: 
-    m_lastTime: -8585247619708513519
+    m_lastTime: -8585247235571222906
     List:
     - name: ActionsEvents
       guid: 462aade21532cc4f9884bfdbe8980f2b
@@ -224,6 +224,43 @@ MonoBehaviour:
         ObjectType: 3
         guid: 1804a8489b44d54fbda9e10465ca9d13
       Path: Events\Default Work Unit\ActionsEvents\LockPickDoor
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Music
+      guid: 3cc32ebde781de4db791d91dd051ac2f
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 48707638b834bb4e8282e8ba65058642
+      - ElementName: Music
+        ObjectType: 4
+        guid: 3cc32ebde781de4db791d91dd051ac2f
+      Path: Events\Default Work Unit\Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MusicEvent
+      guid: bcf50c928dea614b878606233799a33e
+      id: 3341137194
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 48707638b834bb4e8282e8ba65058642
+      - ElementName: Music
+        ObjectType: 4
+        guid: 3cc32ebde781de4db791d91dd051ac2f
+      - ElementName: MusicEvent
+        ObjectType: 3
+        guid: bcf50c928dea614b878606233799a33e
+      Path: Events\Default Work Unit\Music\MusicEvent
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -406,7 +443,7 @@ MonoBehaviour:
     m_lastTime: -8585249415700552114
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000050000000600000008000000
+  ExpandedWaapiItemIds: 010000000500000006000000080000000b0000000c000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

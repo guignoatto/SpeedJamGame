@@ -17,10 +17,13 @@ public class InteractiveButtonHover : MonoBehaviour
     private float _timer = 0;
     private List<int> _playersInside = new List<int>();
     private InteractiveButtonView _interactiveButtonView;
+    public AK.Wwise.Event LockPickSound;
 
     private void Start()
     {
         _interactiveButtonView = GetComponent<InteractiveButtonView>();
+        
+
     }
 
     private void Update()
@@ -47,6 +50,7 @@ public class InteractiveButtonHover : MonoBehaviour
                 _playersInside.Add(myNumber.myNumber);
                 _interactiveButtonView.ToggleProgressBarEnabled(true);
                 _startTimer = true;
+                LockPickSound.Post(gameObject);
             }
         }
     }
@@ -62,6 +66,7 @@ public class InteractiveButtonHover : MonoBehaviour
                 _interactiveButtonView.RefreshProgressBar(0,0,true);
                 _timer = 0;
                 _startTimer = false;
+                LockPickSound.Stop(gameObject);
             }
         }
     }

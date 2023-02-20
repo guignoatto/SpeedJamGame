@@ -17,6 +17,7 @@ namespace AK
         static const AkUniqueID COLLECTITEM = 3845573156U;
         static const AkUniqueID DIALOGUE = 3930136735U;
         static const AkUniqueID LOCKPICKDOOR = 244100751U;
+        static const AkUniqueID MUSICEVENT = 3341137194U;
         static const AkUniqueID OPENDOOR = 2122995345U;
         static const AkUniqueID PRESSINGBUTTON = 764395510U;
     } // namespace EVENTS

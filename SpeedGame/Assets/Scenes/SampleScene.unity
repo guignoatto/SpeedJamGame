@@ -206,6 +206,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5549695789227898201, guid: 81a27698d3e855b41a646ae4782e4cf9, type: 3}
+      propertyPath: LockPickSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 1cccec0a8eeb6824085afd891fc7902d, type: 2}
     m_RemovedComponents:
     - {fileID: 1840878345682939112, guid: 81a27698d3e855b41a646ae4782e4cf9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 81a27698d3e855b41a646ae4782e4cf9, type: 3}
@@ -561,6 +565,9 @@ GameObject:
   - component: {fileID: 307775412}
   - component: {fileID: 307775411}
   - component: {fileID: 307775415}
+  - component: {fileID: 307775416}
+  - component: {fileID: 307775418}
+  - component: {fileID: 307775417}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -682,6 +689,66 @@ MonoBehaviour:
   newTarget: {fileID: 640545624}
   transitionTime: 0.5
   currentTarget: {fileID: 640545624}
+--- !u!114 &307775416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307775410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01f25383f5c6afc42a02c4e39cbf055b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: dc51f3ea4fc903f4eaa810aad24bc4fe, type: 2}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
+--- !u!114 &307775417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307775410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee21c313b8fc4b54cadabd584217aa57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDefaultListener: 1
+  listenerId: 0
+--- !u!114 &307775418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307775410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7e8b5bf15a60b44b327c68c53c65de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &353026355
 GameObject:
   m_ObjectHideFlags: 0
@@ -809,6 +876,10 @@ MonoBehaviour:
   _whoCanInteract: 3
   _objectDoor: {fileID: 758451129}
   _taskTime: 0
+  LockPickSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &425283810
 GameObject:
   m_ObjectHideFlags: 0
@@ -1175,6 +1246,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 914474857, guid: 989409a2a094a7d4f97aadbc3ad8ae04, type: 3}
+      propertyPath: LockPickSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 1cccec0a8eeb6824085afd891fc7902d, type: 2}
     - target: {fileID: 1566291788994968133, guid: 989409a2a094a7d4f97aadbc3ad8ae04, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -1498,7 +1573,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1631557854456004736, guid: 34227df0ccb12a849b131b00876f8af6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.5002997
+      value: -1.5002995
       objectReference: {fileID: 0}
     - target: {fileID: 1631557854456004736, guid: 34227df0ccb12a849b131b00876f8af6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7072,6 +7147,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 914474857, guid: 989409a2a094a7d4f97aadbc3ad8ae04, type: 3}
+      propertyPath: LockPickSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 1cccec0a8eeb6824085afd891fc7902d, type: 2}
     - target: {fileID: 1934039565, guid: 989409a2a094a7d4f97aadbc3ad8ae04, type: 3}
       propertyPath: m_Camera
       value: 
@@ -7181,6 +7260,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5549695789227898201, guid: 81a27698d3e855b41a646ae4782e4cf9, type: 3}
+      propertyPath: LockPickSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 1cccec0a8eeb6824085afd891fc7902d, type: 2}
     - target: {fileID: 7538597754822875153, guid: 81a27698d3e855b41a646ae4782e4cf9, type: 3}
       propertyPath: m_Camera
       value: 

@@ -3,11 +3,13 @@ Event	ID	Name			Wwise Object Path	Notes
 	317641954	ButtonPress			\Default Work Unit\UiEvents\ButtonPress	
 	764395510	PressingButton			\Default Work Unit\ActionsEvents\PressingButton	
 	2122995345	OpenDoor			\Default Work Unit\ActionsEvents\OpenDoor	
+	3341137194	MusicEvent			\Default Work Unit\Music\MusicEvent	
 	3845573156	CollectItem			\Default Work Unit\ActionsEvents\CollectItem	
 	3930136735	Dialogue			\Default Work Unit\UiEvents\Dialogue	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	105504107	Unlocking	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\Destrancando_2E056AB1.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\LockPickDoor\Unlocking		138908
+	159532433	TestMusic	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\TestMusic_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\TestMusic\TestMusic		5644896
 	216302046	Button	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\Button_78AC1C0B.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ui\Button		42604
 	228450006	SqueakingDoor	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\556713__nachtmahrtv__squeaking-door_05BBF1ED.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\SqueakingDoor		105920
 	316074698	PickUp	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\PickUp_053A03CC.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\PickUp		35938
