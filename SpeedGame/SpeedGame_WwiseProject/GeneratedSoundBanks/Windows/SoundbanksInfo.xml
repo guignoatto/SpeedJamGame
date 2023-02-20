@@ -29,7 +29,7 @@
 				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{7B5FDF0F-3F42-2CC9-3E31-175CD4C16E55}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{8E998CA6-57C4-BDBA-7CD8-A0B8A27B4C31}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -49,9 +49,17 @@
 					<ShortName>556713__nachtmahrtv__squeaking-door.wav</ShortName>
 					<CachePath>SFX/556713__nachtmahrtv__squeaking-door_05BBF1ED.wem</CachePath>
 				</File>
+				<File Id="233616582" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wardrobe.wav</ShortName>
+					<CachePath>SFX/Wardrobe_E6D48BAA.wem</CachePath>
+				</File>
 				<File Id="316074698" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PickUp.wav</ShortName>
 					<CachePath>SFX/PickUp_053A03CC.wem</CachePath>
+				</File>
+				<File Id="366269186" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MovingTrash.wav</ShortName>
+					<CachePath>SFX/MovingTrash_B3D707BF.wem</CachePath>
 				</File>
 				<File Id="389396892" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>556713__nachtmahrtv__squeaking-door.wav</ShortName>
@@ -61,6 +69,10 @@
 					<ShortName>Dialogue.wav</ShortName>
 					<CachePath>SFX/Dialogue_819FEFBD.wem</CachePath>
 				</File>
+				<File Id="491947027" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CameraShutDown.wav</ShortName>
+					<CachePath>SFX/CameraShutDown_3F63D735.wem</CachePath>
+				</File>
 				<File Id="652907314" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>556713__nachtmahrtv__squeaking-door.wav</ShortName>
 					<CachePath>SFX/556713__nachtmahrtv__squeaking-door_23D1A4C8.wem</CachePath>
@@ -68,10 +80,6 @@
 				<File Id="777090758" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>556713__nachtmahrtv__squeaking-door.wav</ShortName>
 					<CachePath>SFX/556713__nachtmahrtv__squeaking-door_33DEFE88.wem</CachePath>
-				</File>
-				<File Id="789988452" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Collect.wav</ShortName>
-					<CachePath>SFX/Collect_F1CB04F0.wem</CachePath>
 				</File>
 				<File Id="851453980" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>CaixaPesada.wav</ShortName>
@@ -85,11 +93,34 @@
 					<ShortName>SearchingChest.wav</ShortName>
 					<CachePath>SFX/SearchingChest_79606F84.wem</CachePath>
 				</File>
+				<File Id="967368055" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MovingTrash.wav</ShortName>
+					<CachePath>SFX/MovingTrash_0E025E84.wem</CachePath>
+				</File>
+				<File Id="977178467" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wardrobe.wav</ShortName>
+					<CachePath>SFX/Wardrobe_4A11A6E1.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="2277168142" Name="BookShelf" MaxAttenuation="15" DurationType="OneShot" DurationMin="4.187693" DurationMax="4.187693">
+					<MediaRefs>
+						<MediaRef Id="366269186"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1151725023" Name="BookShelfRat" MaxAttenuation="15" DurationType="OneShot" DurationMin="2.101573" DurationMax="2.101573">
+					<MediaRefs>
+						<MediaRef Id="967368055"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="317641954" Name="ButtonPress" DurationType="OneShot" DurationMin="0.46822304" DurationMax="0.46822304">
 					<MediaRefs>
 						<MediaRef Id="216302046"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="632152062" Name="CameraShutDown" MaxAttenuation="15" DurationType="OneShot" DurationMin="3.0607576" DurationMax="3.0607576">
+					<MediaRefs>
+						<MediaRef Id="491947027"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3845573156" Name="CollectItem" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.46411812" DurationMax="0.46411812">
@@ -137,8 +168,18 @@
 						<MediaRef Id="856223558"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="119530393" Name="WarDrobe" MaxAttenuation="15" DurationType="OneShot" DurationMin="4.062176" DurationMax="4.062176">
+					<MediaRefs>
+						<MediaRef Id="977178467"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3732297130" Name="WarDrobeRat" MaxAttenuation="15" DurationType="OneShot" DurationMin="2.53886" DurationMax="2.53886">
+					<MediaRefs>
+						<MediaRef Id="233616582"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{04C62B19-2E60-0F0D-7DD9-52A8015FD57B}</FileHash>
+	<FileHash>{19167467-8268-BC63-DCAD-A99487B3BC86}</FileHash>
 </SoundBanksInfo>

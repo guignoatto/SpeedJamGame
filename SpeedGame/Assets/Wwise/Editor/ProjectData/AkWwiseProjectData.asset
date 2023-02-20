@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: d071b20e31e07c4d8fde1072796e0f0b
     GuidInternal: 
-    m_lastTime: -8585249073264389644
+    m_lastTime: -8585249415699833807
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 4d0c61697e9d944fb66c9c1acbf00562
     GuidInternal: 
-    m_lastTime: -8585247770671963046
+    m_lastTime: -8585249308802338122
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -100,7 +100,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8b625846c9e17947804fa06d486d5303
     GuidInternal: 
-    m_lastTime: -8585246975924092355
+    m_lastTime: -8585246953100062926
     List:
     - name: Main
       guid: 436429506335e645a8e2fdeb910401d0
@@ -128,7 +128,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 48707638b834bb4e8282e8ba65058642
     GuidInternal: 
-    m_lastTime: -8585246975925795718
+    m_lastTime: -8585246953168101408
     List:
     - name: ActionsEvents
       guid: 462aade21532cc4f9884bfdbe8980f2b
@@ -144,6 +144,46 @@ MonoBehaviour:
         ObjectType: 4
         guid: 462aade21532cc4f9884bfdbe8980f2b
       Path: Events\Default Work Unit\ActionsEvents
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: BookShelf
+      guid: 5820c7e60239f5488e489173496114d1
+      id: 2277168142
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 48707638b834bb4e8282e8ba65058642
+      - ElementName: ActionsEvents
+        ObjectType: 4
+        guid: 462aade21532cc4f9884bfdbe8980f2b
+      - ElementName: BookShelf
+        ObjectType: 3
+        guid: 5820c7e60239f5488e489173496114d1
+      Path: Events\Default Work Unit\ActionsEvents\BookShelf
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: BookShelfRat
+      guid: 390e731f49e4074b9a45c6c3ee4cfd6d
+      id: 1151725023
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 48707638b834bb4e8282e8ba65058642
+      - ElementName: ActionsEvents
+        ObjectType: 4
+        guid: 462aade21532cc4f9884bfdbe8980f2b
+      - ElementName: BookShelfRat
+        ObjectType: 3
+        guid: 390e731f49e4074b9a45c6c3ee4cfd6d
+      Path: Events\Default Work Unit\ActionsEvents\BookShelfRat
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -164,6 +204,26 @@ MonoBehaviour:
         ObjectType: 3
         guid: 4ad80c2767e81c45a56426db788c0caf
       Path: Events\Default Work Unit\UiEvents\ButtonPress
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: CameraShutDown
+      guid: b475b786a15929448270130262f55c58
+      id: 632152062
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 48707638b834bb4e8282e8ba65058642
+      - ElementName: ActionsEvents
+        ObjectType: 4
+        guid: 462aade21532cc4f9884bfdbe8980f2b
+      - ElementName: CameraShutDown
+        ObjectType: 3
+        guid: b475b786a15929448270130262f55c58
+      Path: Events\Default Work Unit\ActionsEvents\CameraShutDown
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -361,6 +421,46 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: WarDrobe
+      guid: ce1c9236c522364db7d2ad81b864b74c
+      id: 119530393
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 48707638b834bb4e8282e8ba65058642
+      - ElementName: ActionsEvents
+        ObjectType: 4
+        guid: 462aade21532cc4f9884bfdbe8980f2b
+      - ElementName: WarDrobe
+        ObjectType: 3
+        guid: ce1c9236c522364db7d2ad81b864b74c
+      Path: Events\Default Work Unit\ActionsEvents\WarDrobe
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: WarDrobeRat
+      guid: 001f7ea15e347e4bba7587292443495e
+      id: 3732297130
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 48707638b834bb4e8282e8ba65058642
+      - ElementName: ActionsEvents
+        ObjectType: 4
+        guid: 462aade21532cc4f9884bfdbe8980f2b
+      - ElementName: WarDrobeRat
+        ObjectType: 3
+        guid: 001f7ea15e347e4bba7587292443495e
+      Path: Events\Default Work Unit\ActionsEvents\WarDrobeRat
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -373,7 +473,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: df624f3af53227419008732cd8868c6a
     GuidInternal: 
-    m_lastTime: -8585247770672148463
+    m_lastTime: -8585249310123406946
     List:
     - name: MasterVolume
       guid: 50f83c0e1828164180f11cb20b6bd552
@@ -452,7 +552,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 709e1dae559fc644af3c1ccca12354ab
     GuidInternal: 
-    m_lastTime: -8585249073264404617
+    m_lastTime: -8585249415700352425
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -466,7 +566,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 8d5b0ed1f3acaf4ba6354820e3c67ad6
     GuidInternal: 
-    m_lastTime: -8585249073264399627
+    m_lastTime: -8585249415700512221
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -480,10 +580,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 743069e3a3e3714fbc3f164d485177e3
     GuidInternal: 
-    m_lastTime: -8585249073264394626
+    m_lastTime: -8585249415700552114
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000500000006000000090000000b0000000c000000
+  ExpandedWaapiItemIds: 010000000500000006000000070000000b0000000c000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

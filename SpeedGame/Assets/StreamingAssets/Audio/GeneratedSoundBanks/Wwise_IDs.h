@@ -13,7 +13,10 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID BOOKSHELF = 2277168142U;
+        static const AkUniqueID BOOKSHELFRAT = 1151725023U;
         static const AkUniqueID BUTTONPRESS = 317641954U;
+        static const AkUniqueID CAMERASHUTDOWN = 632152062U;
         static const AkUniqueID COLLECTITEM = 3845573156U;
         static const AkUniqueID DIALOGUE = 3930136735U;
         static const AkUniqueID LOCKPICKDOOR = 244100751U;
@@ -22,6 +25,8 @@ namespace AK
         static const AkUniqueID PRESSINGBUTTON = 764395510U;
         static const AkUniqueID SEARCHINGCHEST = 573117142U;
         static const AkUniqueID SEARCHINGCHESTRAT = 1856841079U;
+        static const AkUniqueID WARDROBE = 119530393U;
+        static const AkUniqueID WARDROBERAT = 3732297130U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS

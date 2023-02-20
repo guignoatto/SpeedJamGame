@@ -476,51 +476,6 @@
 										<ItemRef Name="OpeningDoor" ID="{088CE290-64F8-4DE5-9A4F-0F2E91EB5144}"/>
 									</Playlist>
 								</RandomSequenceContainer>
-								<Sound Name="Collect" ID="{5BD7D27C-48C9-4011-AF62-6DD7146F2A53}" ShortID="917734616">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
-										<Property Name="Pitch" Type="int32">
-											<ValueList>
-												<Value>480</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-7</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FB80E47F-0CC7-4166-8A2D-39890E0BE6E3}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69610C4D-9D7E-4F94-B66C-9C1ACBF00562}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Collect" ID="{47CB04AE-7802-488D-A322-73EA4AAAEE3E}">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.198813841598816"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.256669721429159"/>
-												<Property Name="LoopBegin" Type="Real64" Value="0.233527369497022"/>
-												<Property Name="LoopEnd" Type="Real64" Value="0.453379712852326"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.0694270557964118"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.548052970756526"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Collect.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="789988452"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Collect" ID="{47CB04AE-7802-488D-A322-73EA4AAAEE3E}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="PickUp" ID="{B40F4639-6B18-471E-AAF7-DBC0BCDA39C4}" ShortID="295407750">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
@@ -565,7 +520,7 @@
 										<ActiveSource Name="PickUp" ID="{F17D37AF-88A6-4176-9E38-FB5607EC7372}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="MovingTrash" ID="{CCDF1D7A-C925-4D52-A854-B87787DA7B93}" ShortID="88981399">
+								<Sound Name="BookShelf" ID="{CCDF1D7A-C925-4D52-A854-B87787DA7B93}" ShortID="88981399">
 									<PropertyList>
 										<Property Name="Pitch" Type="int32">
 											<ValueList>
@@ -593,12 +548,12 @@
 												<Property Name="FadeOutDuration" Type="Real64" Value="3.8039378238342"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="2.86673575129535"/>
-												<Property Name="TrimEnd" Type="Real64" Value="10.1254576856649"/>
+												<Property Name="TrimEnd" Type="Real64" Value="7.84677029360967"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>MovingTrash.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="967368055"/>
+												<MediaID ID="366269186"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -676,6 +631,158 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="SearchingChest" ID="{3BB460D3-DBCF-478D-B81A-5E52102EACD4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CameraShutDown" ID="{801266D2-0281-442F-8551-D143E33C7B0D}" ShortID="878255557">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>730</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FB80E47F-0CC7-4166-8A2D-39890E0BE6E3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69610C4D-9D7E-4F94-B66C-9C1ACBF00562}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CameraShutDown" ID="{4DB6D7D6-0F93-435E-A694-72B9E71C70C7}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="3.71692476472455"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.66611557576398"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>CameraShutDown.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="491947027"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="CameraShutDown" ID="{4DB6D7D6-0F93-435E-A694-72B9E71C70C7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BookShelfRat" ID="{5A04218B-A5F5-44E3-94B2-A2D0640DED70}" ShortID="456900695">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>300</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-20</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FB80E47F-0CC7-4166-8A2D-39890E0BE6E3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69610C4D-9D7E-4F94-B66C-9C1ACBF00562}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MovingTrash" ID="{6457AD52-8618-4199-95B3-89B37BC53BB5}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="2.26031088082902"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.35219343696027"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="6.87281519861832"/>
+												<Property Name="TrimEnd" Type="Real64" Value="9.37202072538861"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>MovingTrash.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="967368055"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MovingTrash" ID="{6457AD52-8618-4199-95B3-89B37BC53BB5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Wardrobe" ID="{160473A0-3F34-4076-810A-1F85195673DF}" ShortID="527896327">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FB80E47F-0CC7-4166-8A2D-39890E0BE6E3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69610C4D-9D7E-4F94-B66C-9C1ACBF00562}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wardrobe" ID="{E6A18712-3A3F-4416-B31E-F3A4F57BA29E}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.670259067357514"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.99046632124352"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="9.74922279792744"/>
+												<Property Name="TrimEnd" Type="Real64" Value="13.8113989637306"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Wardrobe.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="977178467"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wardrobe" ID="{E6A18712-3A3F-4416-B31E-F3A4F57BA29E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WardrobeRat" ID="{49AE1059-E737-4F79-877C-6090435713A1}" ShortID="328758762">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FB80E47F-0CC7-4166-8A2D-39890E0BE6E3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69610C4D-9D7E-4F94-B66C-9C1ACBF00562}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wardrobe" ID="{F706EEBD-2283-4D6C-9F41-B6B2751FDCC0}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.995233160621762"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.446839378238341"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="7.92124352331606"/>
+												<Property Name="TrimEnd" Type="Real64" Value="10.460103626943"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Wardrobe.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="233616582"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wardrobe" ID="{F706EEBD-2283-4D6C-9F41-B6B2751FDCC0}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
