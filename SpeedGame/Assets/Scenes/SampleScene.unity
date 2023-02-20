@@ -680,7 +680,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newTarget: {fileID: 640545624}
-  transitionTime: 1
+  transitionTime: 0.5
+  currentTarget: {fileID: 640545624}
 --- !u!1 &353026355
 GameObject:
   m_ObjectHideFlags: 0
@@ -6879,7 +6880,7 @@ MonoBehaviour:
   - {fileID: 997044949}
   _arrow: {fileID: 291297138}
   _boxCollider2D: {fileID: 758451131}
-  _cameraSwitch: {fileID: 0}
+  _cameraSwitch: {fileID: 307775415}
   ActiveAgent: 0
 --- !u!4 &2119742938
 Transform:

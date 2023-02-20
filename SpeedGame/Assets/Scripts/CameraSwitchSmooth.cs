@@ -16,6 +16,7 @@ public class CameraSwitchSmooth : MonoBehaviour
 
     public void GetNewTarget(Transform target)
     {
+        if (newTarget == target) return;
         newTarget = target;
         var pos = target.position;
         pos.z = 0;
