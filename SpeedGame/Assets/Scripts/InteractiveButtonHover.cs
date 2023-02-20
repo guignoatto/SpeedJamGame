@@ -11,7 +11,7 @@ public class InteractiveButtonHover : MonoBehaviour
     [SerializeField] private int _whoCanInteract;
     [SerializeField] private Animator _objectDoor;
     [SerializeField] private float _taskTime;
-    [SerializeField] private bool _isDoor = false;
+    [SerializeField] private IObjectType _objectType;
     private BoxCollider2D _collider2D;
     private PlayerMovement _player;
     private bool _startTimer = false;
@@ -34,8 +34,12 @@ public class InteractiveButtonHover : MonoBehaviour
             _timer += Time.deltaTime;
             if (_timer >= _taskTime)
             {
-                if (_isDoor)
-                    _objectDoor.GetComponent<Animator>().SetTrigger("OnOpenDoor");
+                switch (_objectType)
+                {
+                    case IObjectType.CHEST:
+                        _objectDoor.GetComponent<Animator>().SetTrigger("OnOpenDoor");
+                        break;
+                }
                 _interactiveButtonView.RefreshProgressBar(_timer,_taskTime);
                 StartCoroutine(OpenDoorDelay());
             }
@@ -52,7 +56,37 @@ public class InteractiveButtonHover : MonoBehaviour
                 _playersInside.Add(myNumber.myNumber);
                 _interactiveButtonView.ToggleProgressBarEnabled(true);
                 _startTimer = true;
-                LockPickSound.Post(gameObject);
+                switch (_objectType)
+                {
+                    case IObjectType.CHEST:
+                        if (myNumber.myNumber == 3)
+                        {
+                            //som rápido
+                        }
+                        else
+                            LockPickSound.Post(gameObject);
+                        break;
+                    case IObjectType.WARDROBE:
+                        if (myNumber.myNumber == 3)
+                        {
+                            //som rápido
+                        }
+                        else
+                        {
+                            //outro som
+                        }
+                        break;
+                    case IObjectType.BOOKSHELF:
+                        if (myNumber.myNumber == 3)
+                        {
+                            //som rápido
+                        }
+                        else
+                        {
+                            //outro som
+                        }
+                        break;
+                }
             }
         }
     }
@@ -68,7 +102,39 @@ public class InteractiveButtonHover : MonoBehaviour
                 _interactiveButtonView.RefreshProgressBar(0,0,true);
                 _timer = 0;
                 _startTimer = false;
-                LockPickSound.Stop(gameObject);
+                switch (_objectType)
+                {
+                    case IObjectType.CHEST:
+                        if (myNumber.myNumber == 3)
+                        {
+                            //som rápido
+                        }
+                        else
+                            LockPickSound.Stop(gameObject);
+                        break;
+                    case IObjectType.WARDROBE:
+                        if (myNumber.myNumber == 3)
+                        {
+                            //som rápido
+                        }
+                        else
+                        {
+                            //outro som
+                        }
+                        break;
+                    case IObjectType.BOOKSHELF:
+                        if (myNumber.myNumber == 3)
+                        {
+                            //som rápido
+                        }
+                        else
+                        {
+                            //outro som
+                        }
+                        break;
+                }
+
+                
             }
         }
     }
