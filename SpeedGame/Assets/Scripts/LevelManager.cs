@@ -9,6 +9,7 @@ public class LevelManager : MonoBehaviour
 {
     private string highscoreFilePath;
     private HighScores highscore;
+    private PlayerMovement _playerMovement;
 
     private ItemCollector _itemCollector;
     public float timer;
@@ -23,6 +24,7 @@ public class LevelManager : MonoBehaviour
     }
     private void Start()
     {
+        _playerMovement = FindObjectOfType<PlayerMovement>();
         _itemCollector = GameObject.FindObjectOfType<ItemCollector>();
         _levelManagerView = GetComponent<LevelManagerView>();
         highscoreFilePath = Application.dataPath + "/highscores.json";
@@ -50,8 +52,22 @@ public class LevelManager : MonoBehaviour
         {
             SceneManager.LoadScene("SampleScene");
         }
-        
-        
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (Time.timeScale == 0)
+            {
+                Time.timeScale = 1;
+                _levelManagerView.pauseMenu.SetActive(false);
+                _playerMovement.paused = false;
+            }
+            else
+            {
+                _levelManagerView.pauseMenu.SetActive(true);
+                Time.timeScale = 0;
+                _playerMovement.paused = true;
+            }
+        }
     }
 
     private void ShowLeaderboard()
