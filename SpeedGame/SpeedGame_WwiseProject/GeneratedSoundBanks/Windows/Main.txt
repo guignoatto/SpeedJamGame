@@ -19,17 +19,17 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	159532433	TestMusic	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\TestMusic_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\TestMusic\TestMusic		5644896
 	216302046	Button	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\Button_78AC1C0B.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ui\Button		42604
 	228450006	SqueakingDoor	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\556713__nachtmahrtv__squeaking-door_05BBF1ED.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\SqueakingDoor		105920
-	233616582	WardrobeRat	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\Wardrobe_E6D48BAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\WardrobeRat		487556
+	233616582	WardrobeRat	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\Wardrobe_2A46ADC2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\WardrobeRat		487556
 	316074698	PickUp	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\PickUp_053A03CC.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\PickUp		35938
-	366269186	BookShelf	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\MovingTrash_B3D707BF.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\BookShelf		956264
+	366269186	BookShelf	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\MovingTrash_D26D399F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\BookShelf		956264
 	389396892	OpenDoor3	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\556713__nachtmahrtv__squeaking-door_0A0978F8.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\OpeningDoor\OpenDoor3		105144
 	424463840	Dialogue	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\Dialogue_819FEFBD.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ui\Dialogue		7276
-	491947027	CameraShutDown	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\CameraShutDown_3F63D735.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\CameraShutDown		411648
+	491947027	CameraShutDown	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\CameraShutDown_34B77710.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\CameraShutDown		411648
 	652907314	OpenDoor1	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\556713__nachtmahrtv__squeaking-door_23D1A4C8.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\OpeningDoor\OpenDoor1		144112
 	777090758	OpenDoor2	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\556713__nachtmahrtv__squeaking-door_33DEFE88.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\OpeningDoor\OpenDoor2		96096
-	851453980	PressingButton	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\CaixaPesada_F18F1879.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\PressingButton		19122
-	856223558	SearchingChestRat	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\SearchingChest_CB2AD535.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\SearchingChestRat		479240
-	928358533	SearchingChest	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\SearchingChest_79606F84.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\SearchingChest		901044
-	967368055	BookShelfRat	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\MovingTrash_0E025E84.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\BookShelfRat		479944
-	977178467	Wardrobe	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\Wardrobe_4A11A6E1.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\Wardrobe		780032
+	851453980	PressingButton	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\CaixaPesada_A6505234.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\PressingButton		19122
+	856223558	SearchingChestRat	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\SearchingChest_4746660B.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\SearchingChestRat		479240
+	928358533	SearchingChest	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\SearchingChest_6A88A054.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\SearchingChest		901044
+	967368055	BookShelfRat	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\MovingTrash_BFADAA3D.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\BookShelfRat		479944
+	977178467	Wardrobe	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\Wardrobe_4850F0BD.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\Wardrobe		780032
 
