@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private List<NavMeshAgent> _agents;
     [SerializeField] private Transform _arrow;
     [SerializeField] private BoxCollider2D _boxCollider2D;
+    [SerializeField] private CameraSwitchSmooth _cameraSwitch;
 
     public int ActiveAgent = 0;
 
@@ -53,10 +54,29 @@ public class PlayerMovement : MonoBehaviour
             _boxCollider2D.gameObject.SetActive(!_boxCollider2D.gameObject.activeSelf);
         }
 
-        if (Input.GetKeyDown(KeyCode.Q)) ActiveAgent = 0;
-        if (Input.GetKeyDown(KeyCode.W)) ActiveAgent = 1;
-        if (Input.GetKeyDown(KeyCode.E)) ActiveAgent = 2;
-        if (Input.GetKeyDown(KeyCode.R)) ActiveAgent = 3;
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            ActiveAgent = 0;
+            _cameraSwitch.GetNewTarget(_agents[ActiveAgent].gameObject.transform);
+        }
+
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            ActiveAgent = 1;
+            _cameraSwitch.GetNewTarget(_agents[ActiveAgent].gameObject.transform);
+        }
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            ActiveAgent = 2;
+            _cameraSwitch.GetNewTarget(_agents[ActiveAgent].gameObject.transform);
+        }
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            ActiveAgent = 3;
+            _cameraSwitch.GetNewTarget(_agents[ActiveAgent].gameObject.transform);
+        }
     }
 
     private void HandleMouseClick()
