@@ -20,6 +20,8 @@ namespace AK
         static const AkUniqueID MUSICEVENT = 3341137194U;
         static const AkUniqueID OPENDOOR = 2122995345U;
         static const AkUniqueID PRESSINGBUTTON = 764395510U;
+        static const AkUniqueID SEARCHINGCHEST = 573117142U;
+        static const AkUniqueID SEARCHINGCHESTRAT = 1856841079U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS

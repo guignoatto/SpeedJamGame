@@ -7014,6 +7014,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   typingSpeed: 0
   fullText: 
+  DialogueSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 23cce8dd7c4c23a43820479b5a90dec0, type: 2}
   textComponent: {fileID: 1398022998}
 --- !u!1 &1831505302
 GameObject:

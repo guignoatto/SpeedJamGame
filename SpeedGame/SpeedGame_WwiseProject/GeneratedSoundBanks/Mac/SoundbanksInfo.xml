@@ -29,7 +29,7 @@
 				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{B255BA81-F2BE-B334-361D-9A7D039A25FD}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{7B5FDF0F-3F42-2CC9-3E31-175CD4C16E55}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -75,7 +75,15 @@
 				</File>
 				<File Id="851453980" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>CaixaPesada.wav</ShortName>
-					<CachePath>SFX/CaixaPesada_92FEEB54.wem</CachePath>
+					<CachePath>SFX/CaixaPesada_F18F1879.wem</CachePath>
+				</File>
+				<File Id="856223558" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SearchingChest.wav</ShortName>
+					<CachePath>SFX/SearchingChest_CB2AD535.wem</CachePath>
+				</File>
+				<File Id="928358533" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SearchingChest.wav</ShortName>
+					<CachePath>SFX/SearchingChest_79606F84.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -89,7 +97,7 @@
 						<MediaRef Id="316074698"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3930136735" Name="Dialogue" DurationType="OneShot" DurationMin="0.023877643" DurationMax="0.08509024">
+				<Event Id="3930136735" Name="Dialogue" DurationType="OneShot" DurationMin="0.054888114" DurationMax="0.08509024">
 					<MediaRefs>
 						<MediaRef Id="424463840"/>
 					</MediaRefs>
@@ -114,13 +122,23 @@
 						<MediaRef Id="777090758"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="764395510" Name="PressingButton" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.25006136" DurationMax="0.25006136">
+				<Event Id="764395510" Name="PressingButton" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.3103997" DurationMax="0.39198375">
 					<MediaRefs>
 						<MediaRef Id="851453980"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="573117142" Name="SearchingChest" MaxAttenuation="15" DurationType="OneShot" DurationMin="4.692435" DurationMax="4.692435">
+					<MediaRefs>
+						<MediaRef Id="928358533"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1856841079" Name="SearchingChestRat" MaxAttenuation="15" DurationType="OneShot" DurationMin="2.4955435" DurationMax="2.4955435">
+					<MediaRefs>
+						<MediaRef Id="856223558"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{527789C4-705A-3DDA-2003-7D5D0FE4C685}</FileHash>
+	<FileHash>{242CB708-632F-2E19-7152-D4242352DFBF}</FileHash>
 </SoundBanksInfo>

@@ -13,6 +13,8 @@ public class WrittingEffectText : MonoBehaviour
     private string currentText = "";
     private bool isTyping = false;
 
+    public AK.Wwise.Event DialogueSound;
+
     [SerializeField] private TextMeshProUGUI textComponent;
     private IEnumerator typeEnumerator; 
 
@@ -58,6 +60,7 @@ public class WrittingEffectText : MonoBehaviour
             currentText += t;
             textComponent.text = currentText;
             yield return new WaitForSeconds(typingSpeed);
+            DialogueSound.Post(gameObject);
         }
 
         yield return new WaitForSeconds(3);
