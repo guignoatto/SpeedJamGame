@@ -31,7 +31,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="KUPYI5DPKECc9zSEXcObOg=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="Q2QpUGM15kWo4v3rkQQB0A=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups_v2" Type="string" Value="BdR9Ef2t+0+cJqiuoJ0pOgEAb+DfAAAAwKQ3Nf5/AABYDSQEAQIAAAAAAAABAgAAwKQ3Nf5/AAAEkrwx/n8AAIAMYBEBAgAAAAAAAAECAAAIAAAAAAAAABjkb+DfAAAAAADRMf5/AAAfAdEx/n8AAAAA0TH+fwAAwKQ3Nf5/AADApDc1/n8AAFgNJAQBAgAAAQAAAIcMpkCR3WtLtO3L72KHY1EBAG/g3wAAAMCkNzX+fwAAWA0kBAECAAAAAAAAAQIAAMCkNzX+fwAABJK8Mf5/AACADGARAQIAAAAAAAABAgAACAAAAAAAAAAY5G/g3wAAAAAA0TH+fwAAHwHRMf5/AAAAANEx/n8AAMCkNzX+fwAAwKQ3Nf5/AABYDSQEAQIAAAEAAAA="/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups_v2" Type="string" Value="hwymQJHda0u07cvvYodjUQEAPBObAAAAwKTYG/5/AAAozjk/jAIAAAAAAACMAgAAwKTYG/5/AAAEks74/X8AAJAsw0yMAgAAAAAAAIwCAAAIAAAAAAAAAEjhPBObAAAAAADj+P1/AAAfAeP4/X8AAAAA4/j9fwAAwKTYG/5/AADApNgb/n8AACjOOT+MAgAAAQAAAAXUfRH9rftPnCaorqCdKToBADwTmwAAAMCk2Bv+fwAAKM45P4wCAAAAAAAAjAIAAMCk2Bv+fwAABJLO+P1/AACQLMNMjAIAAAAAAACMAgAACAAAAAAAAABI4TwTmwAAAAAA4/j9fwAAHwHj+P1/AAAAAOP4/X8AAMCk2Bv+fwAAwKTYG/5/AAAozjk/jAIAAAEAAAA="/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
@@ -53,11 +53,11 @@
 				<Property Name="Paste Objects\Sync Target Mode" Type="bool" Value="True"/>
 				<Property Name="Paste Objects\x64_Last Targets" Type="string" Value="Jxl1jC4abU+MaDZd8TrZNg=="/>
 				<Property Name="ProjectExplorer\AudioLayoutInstanceId{3C1ABB0D-8328-4337-A43B-1DF532CFBEBD}\ProjectExplorer2LastScrollState" Type="int32" Value="0"/>
-				<Property Name="ProjectExplorer\AudioLayoutInstanceId{3C1ABB0D-8328-4337-A43B-1DF532CFBEBD}\x64_ProjectExplorer2LastExpandedState" Type="string" Value="iC8JJ1oiVBFnJcijTz1EguraiCN1l8ZGou3FIio5d1ZNDGFpfp2UT7ZsnBrL8AVi2KQUFaYdKkGhfnXKDCFJ8/i7p17AZFBKiCGgfoviHWg/Vhn9exciQYAyWifR+O0lNa1mCV42oU+4zXc6xD1LeUc4JW/UPLJIpCieoye3x4hm0/5JMLWoQpk7kkhzqrcH"/>
+				<Property Name="ProjectExplorer\AudioLayoutInstanceId{3C1ABB0D-8328-4337-A43B-1DF532CFBEBD}\x64_ProjectExplorer2LastExpandedState" Type="string" Value="iC8JJ1oiVBFnJcijTz1EguraiCN1l8ZGou3FIio5d1ZNDGFpfp2UT7ZsnBrL8AVi2KQUFaYdKkGhfnXKDCFJ8/i7p17AZFBKiCGgfoviHWg/Vhn9exciQYAyWifR+O0lNa1mCV42oU+4zXc6xD1LeUc4JW/UPLJIpCieoye3x4hIqZDNkS9GSq1neDJPH6BOZtP+STC1qEKZO5JIc6q3Bw=="/>
 				<Property Name="ProjectExplorer\AudioSelectionChannel1\ProjectExplorer2LastScrollState" Type="int32" Value="0"/>
 				<Property Name="ProjectExplorer\AudioSelectionChannel1\x64_ProjectExplorer2LastExpandedState" Type="string" Value="iC8JJ1oiVBFnJcijTz1EguraiCN1l8ZGou3FIio5d1b4u6dewGRQSoghoH6L4h1oZtP+STC1qEKZO5JIc6q3Bw=="/>
 				<Property Name="ProjectExplorer\EventsLayoutInstanceId{3C1ABB0D-8328-4337-A43B-1DF532CFBEBD}\ProjectExplorer2LastScrollState" Type="int32" Value="0"/>
-				<Property Name="ProjectExplorer\EventsLayoutInstanceId{3C1ABB0D-8328-4337-A43B-1DF532CFBEBD}\x64_ProjectExplorer2LastExpandedState" Type="string" Value="/PCbpkrYfEir3Vb3HLKhJkhwdji4NLtOgoLoumUFhkIi5TY8efAnRo2uB3AILQTk3vWaMB8D4Eybm8ClNidTQw=="/>
+				<Property Name="ProjectExplorer\EventsLayoutInstanceId{3C1ABB0D-8328-4337-A43B-1DF532CFBEBD}\x64_ProjectExplorer2LastExpandedState" Type="string" Value="/PCbpkrYfEir3Vb3HLKhJkhwdji4NLtOgoLoumUFhkJGKq3iFTLMT5iEv9vomA8rIuU2PHnwJ0aNrgdwCC0E5N71mjAfA+BMm5vApTYnU0M="/>
 				<Property Name="ProjectExplorer\EventsSelectionChannel1\ProjectExplorer2LastScrollState" Type="int32" Value="0"/>
 				<Property Name="ProjectExplorer\EventsSelectionChannel1\x64_ProjectExplorer2LastExpandedState" Type="string" Value="/PCbpkrYfEir3Vb3HLKhJt71mjAfA+BMm5vApTYnU0M="/>
 				<Property Name="ProjectExplorer\Game SyncsLayoutInstanceId{3C1ABB0D-8328-4337-A43B-1DF532CFBEBD}\ProjectExplorer2LastScrollState" Type="int32" Value="0"/>
