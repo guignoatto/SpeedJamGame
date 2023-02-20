@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,6 +7,11 @@ using UnityEngine.UI;
 public class InteractiveButtonView : MonoBehaviour
 {
     [SerializeField] private Image _progressionBar;
+
+    private void Start()
+    {
+        ToggleProgressBarEnabled(false);
+    }
 
     public void RefreshProgressBar(float timer, float maxTime, bool setToZero = false)
     {
