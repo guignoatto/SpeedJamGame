@@ -1,7 +1,9 @@
 Event	ID	Name			Wwise Object Path	Notes
 	244100751	LockPickDoor			\Default Work Unit\ActionsEvents\LockPickDoor	
 	317641954	ButtonPress			\Default Work Unit\UiEvents\ButtonPress	
+	573117142	SearchingChest			\Default Work Unit\ActionsEvents\SearchingChest	
 	764395510	PressingButton			\Default Work Unit\ActionsEvents\PressingButton	
+	1856841079	SearchingChestRat			\Default Work Unit\ActionsEvents\SearchingChestRat	
 	2122995345	OpenDoor			\Default Work Unit\ActionsEvents\OpenDoor	
 	3341137194	MusicEvent			\Default Work Unit\Music\MusicEvent	
 	3845573156	CollectItem			\Default Work Unit\ActionsEvents\CollectItem	
@@ -19,4 +21,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	777090758	OpenDoor2	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\556713__nachtmahrtv__squeaking-door_33DEFE88.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\OpeningDoor\OpenDoor2		96096
 	789988452	Collect	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\Collect_F1CB04F0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\Collect		42358
 	851453980	PressingButton	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\CaixaPesada_F18F1879.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\PressingButton		19122
+	856223558	SearchingChestRat	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\SearchingChest_CB2AD535.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\SearchingChestRat		479240
+	928358533	SearchingChest	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Windows\SFX\SearchingChest_79606F84.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\SearchingChest		901044
 

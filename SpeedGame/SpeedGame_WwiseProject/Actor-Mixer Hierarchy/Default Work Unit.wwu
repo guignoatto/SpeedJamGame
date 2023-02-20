@@ -606,6 +606,78 @@
 										<ActiveSource Name="MovingTrash" ID="{E4038365-4901-4C72-9B0F-294F07E74956}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="SearchingChest" ID="{9170982B-342F-4D02-8B85-50493304991F}" ShortID="681886739">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FB80E47F-0CC7-4166-8A2D-39890E0BE6E3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69610C4D-9D7E-4F94-B66C-9C1ACBF00562}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SearchingChest" ID="{9FDC350E-DC67-4E44-8130-E06919CFF13B}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.4938860103627"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.31813471502591"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="8.37015544041451"/>
+												<Property Name="TrimEnd" Type="Real64" Value="13.06259"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SearchingChest.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="928358533"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SearchingChest" ID="{9FDC350E-DC67-4E44-8130-E06919CFF13B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SearchingChestRat" ID="{9A259D8A-B65D-4A64-8312-84905C0843D5}" ShortID="312700223">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FB80E47F-0CC7-4166-8A2D-39890E0BE6E3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69610C4D-9D7E-4F94-B66C-9C1ACBF00562}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SearchingChest" ID="{3BB460D3-DBCF-478D-B81A-5E52102EACD4}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.4938860103627"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.31813471502591"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="5.7119170984456"/>
+												<Property Name="TrimEnd" Type="Real64" Value="8.20746046632121"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SearchingChest.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="856223558"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SearchingChest" ID="{3BB460D3-DBCF-478D-B81A-5E52102EACD4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 						<Folder Name="Ui" ID="{6F253847-3CD4-48B2-A428-9EA327B7C788}" ShortID="481721248">

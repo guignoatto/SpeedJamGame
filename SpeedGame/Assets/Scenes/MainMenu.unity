@@ -4772,7 +4772,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Artist
+  m_text: 'Artist/UI
 
     sisimonis#3682'
   m_isRightToLeft: 0
@@ -5431,7 +5431,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Compouser/Sound Designer
+  m_text: 'Compouser/Sound Designer/UI
 
     Rafaelo#1313'
   m_isRightToLeft: 0
@@ -6161,7 +6161,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Programmer
+  m_text: 'Programmer/UI
 
     Guilherme Gnoatto#2784'
   m_isRightToLeft: 0

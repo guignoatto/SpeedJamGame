@@ -29,7 +29,7 @@
 				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{491410C5-2EBF-A2EB-9F34-CDB21BA2267E}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{7B5FDF0F-3F42-2CC9-3E31-175CD4C16E55}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -77,6 +77,14 @@
 					<ShortName>CaixaPesada.wav</ShortName>
 					<CachePath>SFX/CaixaPesada_F18F1879.wem</CachePath>
 				</File>
+				<File Id="856223558" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SearchingChest.wav</ShortName>
+					<CachePath>SFX/SearchingChest_CB2AD535.wem</CachePath>
+				</File>
+				<File Id="928358533" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SearchingChest.wav</ShortName>
+					<CachePath>SFX/SearchingChest_79606F84.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
 				<Event Id="317641954" Name="ButtonPress" DurationType="OneShot" DurationMin="0.46822304" DurationMax="0.46822304">
@@ -119,8 +127,18 @@
 						<MediaRef Id="851453980"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="573117142" Name="SearchingChest" MaxAttenuation="15" DurationType="OneShot" DurationMin="4.692435" DurationMax="4.692435">
+					<MediaRefs>
+						<MediaRef Id="928358533"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1856841079" Name="SearchingChestRat" MaxAttenuation="15" DurationType="OneShot" DurationMin="2.4955435" DurationMax="2.4955435">
+					<MediaRefs>
+						<MediaRef Id="856223558"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{365E9AA1-EF56-A039-8A80-20CAF15BC3A3}</FileHash>
+	<FileHash>{242CB708-632F-2E19-7152-D4242352DFBF}</FileHash>
 </SoundBanksInfo>
