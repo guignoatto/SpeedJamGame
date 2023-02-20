@@ -71,6 +71,61 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="CameraShutDown" ID="{86B775B4-59A1-4429-8270-130262F55C58}">
+							<ChildrenList>
+								<Action Name="" ID="{12A4EFBA-5ED5-461C-B19A-64BECCF1819C}" ShortID="911199965">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CameraShutDown" ID="{801266D2-0281-442F-8551-D143E33C7B0D}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BookShelfRat" ID="{1F730E39-E449-4B07-9A45-C6C3EE4CFD6D}">
+							<ChildrenList>
+								<Action Name="" ID="{F8E60E17-69A8-44DD-AE16-06DF900C69B6}" ShortID="208544504">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BookShelfRat" ID="{5A04218B-A5F5-44E3-94B2-A2D0640DED70}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BookShelf" ID="{E6C72058-3902-48F5-8E48-9173496114D1}">
+							<ChildrenList>
+								<Action Name="" ID="{C27B1692-AF86-4889-95C2-910D0A43836D}" ShortID="721699905">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BookShelf" ID="{CCDF1D7A-C925-4D52-A854-B87787DA7B93}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="WarDrobe" ID="{36921CCE-22C5-4D36-B7D2-AD81B864B74C}">
+							<ChildrenList>
+								<Action Name="" ID="{4C96D4F6-9D6E-4893-BC09-0AE88934D73E}" ShortID="706416153">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wardrobe" ID="{160473A0-3F34-4076-810A-1F85195673DF}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="WarDrobeRat" ID="{A17E1F00-345E-4B7E-BA75-87292443495E}">
+							<ChildrenList>
+								<Action Name="" ID="{129DF6FC-4C0B-4CAA-98B0-AFF59CC82355}" ShortID="340665198">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WardrobeRat" ID="{49AE1059-E737-4F79-877C-6090435713A1}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UiEvents" ID="{3C36E522-F079-4627-8DAE-0770082D04E4}" ShortID="881357283">

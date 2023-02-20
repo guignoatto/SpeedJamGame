@@ -5,9 +5,10 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{50296443-3563-45E6-A8E2-FDEB910401D0}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Collect" ID="{5BD7D27C-48C9-4011-AF62-6DD7146F2A53}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SearchingChestRat" ID="{BFEFA34B-1B9D-41BF-AE47-40D3C0B70563}" WorkUnitID="{38767048-34B8-4EBB-8282-E8BA65058642}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Button" ID="{0098F649-1954-431A-BFA5-2F27DA52F264}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="CameraShutDown" ID="{86B775B4-59A1-4429-8270-130262F55C58}" WorkUnitID="{38767048-34B8-4EBB-8282-E8BA65058642}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="CameraShutDown" ID="{801266D2-0281-442F-8551-D143E33C7B0D}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="TestMusic" ID="{25C64F24-9D36-4472-B712-E8B784303DC3}" WorkUnitID="{A29D4AC8-5DDD-475C-83B2-F1B6969501EB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ButtonPress" ID="{270CD84A-E867-451C-A564-26DB788C0CAF}" WorkUnitID="{38767048-34B8-4EBB-8282-E8BA65058642}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SearchingChest" ID="{6A61DA10-69DA-4587-A995-702D3833F2D3}" WorkUnitID="{38767048-34B8-4EBB-8282-E8BA65058642}" Origin="Manual" Filter="7"/>
@@ -15,13 +16,17 @@
 						<ObjectRef Name="OpenDoor" ID="{9F70ED71-8AF2-46DD-B5AA-B1CE9C7B5D67}" WorkUnitID="{38767048-34B8-4EBB-8282-E8BA65058642}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PickUp" ID="{B40F4639-6B18-471E-AAF7-DBC0BCDA39C4}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PressingButton" ID="{A6F2A12C-625E-484B-9D1E-2314F06E3B4E}" WorkUnitID="{38767048-34B8-4EBB-8282-E8BA65058642}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="BookShelf" ID="{E6C72058-3902-48F5-8E48-9173496114D1}" WorkUnitID="{38767048-34B8-4EBB-8282-E8BA65058642}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="OpeningDoor" ID="{33F286B7-2AA1-48F8-925C-240ECE698BAD}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Dialogue" ID="{06422C8F-2130-499E-A45E-BBABEC7922EA}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SearchingChestRat" ID="{9A259D8A-B65D-4A64-8312-84905C0843D5}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PressingButton" ID="{F34E03A9-05E0-4A90-8C79-11505BA129AC}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SqueakingDoor" ID="{54B2A698-6459-4AFC-8962-5E945E64B858}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="BookShelfRat" ID="{1F730E39-E449-4B07-9A45-C6C3EE4CFD6D}" WorkUnitID="{38767048-34B8-4EBB-8282-E8BA65058642}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MusicEvent" ID="{920CF5BC-EA8D-4B61-8786-06233799A33E}" WorkUnitID="{38767048-34B8-4EBB-8282-E8BA65058642}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="WarDrobeRat" ID="{A17E1F00-345E-4B7E-BA75-87292443495E}" WorkUnitID="{38767048-34B8-4EBB-8282-E8BA65058642}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SearchingChest" ID="{9170982B-342F-4D02-8B85-50493304991F}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="WarDrobe" ID="{36921CCE-22C5-4D36-B7D2-AD81B864B74C}" WorkUnitID="{38767048-34B8-4EBB-8282-E8BA65058642}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="LockPickDoor" ID="{6C738D11-0EA3-4E9A-8CF0-94D17DEE0E34}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Dialogue" ID="{C203EFEB-2D94-4ED0-96F0-8B459C221386}" WorkUnitID="{38767048-34B8-4EBB-8282-E8BA65058642}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="LockPickDoor" ID="{48A80418-449B-4FD5-BDA9-E10465CA9D13}" WorkUnitID="{38767048-34B8-4EBB-8282-E8BA65058642}" Origin="Manual" Filter="7"/>
