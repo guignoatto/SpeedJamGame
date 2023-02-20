@@ -5,11 +5,13 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{50296443-3563-45E6-A8E2-FDEB910401D0}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Wardrobe" ID="{160473A0-3F34-4076-810A-1F85195673DF}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SearchingChestRat" ID="{BFEFA34B-1B9D-41BF-AE47-40D3C0B70563}" WorkUnitID="{38767048-34B8-4EBB-8282-E8BA65058642}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Button" ID="{0098F649-1954-431A-BFA5-2F27DA52F264}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CameraShutDown" ID="{86B775B4-59A1-4429-8270-130262F55C58}" WorkUnitID="{38767048-34B8-4EBB-8282-E8BA65058642}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CameraShutDown" ID="{801266D2-0281-442F-8551-D143E33C7B0D}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="TestMusic" ID="{25C64F24-9D36-4472-B712-E8B784303DC3}" WorkUnitID="{A29D4AC8-5DDD-475C-83B2-F1B6969501EB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="BookShelfRat" ID="{5A04218B-A5F5-44E3-94B2-A2D0640DED70}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ButtonPress" ID="{270CD84A-E867-451C-A564-26DB788C0CAF}" WorkUnitID="{38767048-34B8-4EBB-8282-E8BA65058642}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SearchingChest" ID="{6A61DA10-69DA-4587-A995-702D3833F2D3}" WorkUnitID="{38767048-34B8-4EBB-8282-E8BA65058642}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Unlocking" ID="{77EE8C0C-F991-46CB-814A-390FC94D3AD7}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}" Origin="Manual" Filter="7"/>
@@ -27,8 +29,10 @@
 						<ObjectRef Name="WarDrobeRat" ID="{A17E1F00-345E-4B7E-BA75-87292443495E}" WorkUnitID="{38767048-34B8-4EBB-8282-E8BA65058642}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SearchingChest" ID="{9170982B-342F-4D02-8B85-50493304991F}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="WarDrobe" ID="{36921CCE-22C5-4D36-B7D2-AD81B864B74C}" WorkUnitID="{38767048-34B8-4EBB-8282-E8BA65058642}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="BookShelf" ID="{CCDF1D7A-C925-4D52-A854-B87787DA7B93}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="LockPickDoor" ID="{6C738D11-0EA3-4E9A-8CF0-94D17DEE0E34}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Dialogue" ID="{C203EFEB-2D94-4ED0-96F0-8B459C221386}" WorkUnitID="{38767048-34B8-4EBB-8282-E8BA65058642}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="WardrobeRat" ID="{49AE1059-E737-4F79-877C-6090435713A1}" WorkUnitID="{FD19563F-177B-4122-8032-5A27D1F8ED25}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="LockPickDoor" ID="{48A80418-449B-4FD5-BDA9-E10465CA9D13}" WorkUnitID="{38767048-34B8-4EBB-8282-E8BA65058642}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

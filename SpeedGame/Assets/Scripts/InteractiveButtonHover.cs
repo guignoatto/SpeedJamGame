@@ -20,6 +20,13 @@ public class InteractiveButtonHover : MonoBehaviour
     private List<int> _playersInside = new List<int>();
     private InteractiveButtonView _interactiveButtonView;
     public AK.Wwise.Event LockPickSound;
+    public AK.Wwise.Event BookShelfSound;
+    public AK.Wwise.Event BookShelfRatSound;
+    public AK.Wwise.Event PickUpSound;
+    public AK.Wwise.Event ChestSound;
+    public AK.Wwise.Event ChestRatSound;
+    public AK.Wwise.Event WardrobeSound;
+    public AK.Wwise.Event WardrobeRatSound;
     public bool hasItem = false;
 
     private void Start()
@@ -44,7 +51,7 @@ public class InteractiveButtonHover : MonoBehaviour
                         if (hasItem)
                         {
                             OnFindObject?.Invoke();
-                            //COLOCAR SOM DE ACHAR
+                            PickUpSound.Post(gameObject);
                             hasItem = false;
                         }
                         break;
@@ -72,42 +79,37 @@ public class InteractiveButtonHover : MonoBehaviour
                 switch (_objectType)
                 {
                     case IObjectType.DOOR:
-                        if (myNumber.myNumber == 3)
-                        {
-                            //som rápido
-                        }
-                        else
                             LockPickSound.Post(gameObject);
                         break;
                     case IObjectType.CHEST:
                         if (myNumber.myNumber == 3)
                         {
-                            //som rápido
+                            ChestRatSound.Post(gameObject);
                         }
                         else
                         {
-                            LockPickSound.Post(gameObject);
-                            //outro som
+                            ChestSound.Post(gameObject);
                         }
+
                         break;
                     case IObjectType.WARDROBE:
                         if (myNumber.myNumber == 3)
                         {
-                            //som rápido
+                            WardrobeRatSound.Post(gameObject);
                         }
                         else
                         {
-                            //outro som
+                            WardrobeSound.Post(gameObject);
                         }
                         break;
                     case IObjectType.BOOKSHELF:
                         if (myNumber.myNumber == 3)
                         {
-                            //som rápido
+                            BookShelfRatSound.Post(gameObject);
                         }
                         else
                         {
-                            //outro som
+                            BookShelfSound.Post(gameObject);
                         }
                         break;
                 }
@@ -143,32 +145,31 @@ public class InteractiveButtonHover : MonoBehaviour
                     case IObjectType.CHEST:
                         if (myNumber.myNumber == 3)
                         {
-                            //som rápido
+                            ChestRatSound.Stop(gameObject);
                         }
                         else
                         {
-                            LockPickSound.Stop(gameObject);
-                            //outro som
+                            ChestSound.Stop(gameObject);
                         }
                         break;
                     case IObjectType.WARDROBE:
                         if (myNumber.myNumber == 3)
                         {
-                            //som rápido
+                            WardrobeRatSound.Stop(gameObject);
                         }
                         else
                         {
-                            //outro som
+                            WardrobeSound.Stop(gameObject);
                         }
                         break;
                     case IObjectType.BOOKSHELF:
                         if (myNumber.myNumber == 3)
                         {
-                            //som rápido
+                            BookShelfRatSound.Stop(gameObject);
                         }
                         else
                         {
-                            //outro som
+                            BookShelfSound.Stop(gameObject);
                         }
                         break;
                 }
