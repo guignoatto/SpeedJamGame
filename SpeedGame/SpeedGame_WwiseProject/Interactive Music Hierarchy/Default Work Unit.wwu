@@ -5,6 +5,16 @@
 			<ChildrenList>
 				<MusicPlaylistContainer Name="Music" ID="{C5738A3D-8AA9-4048-B052-22B587009F37}" ShortID="923491962">
 					<PropertyList>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-5</Value>
