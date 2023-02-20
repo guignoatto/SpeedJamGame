@@ -86,6 +86,7 @@ public class InteractiveButtonHover : MonoBehaviour
                         }
                         else
                         {
+                            LockPickSound.Post(gameObject);
                             //outro som
                         }
                         break;
@@ -146,6 +147,7 @@ public class InteractiveButtonHover : MonoBehaviour
                         }
                         else
                         {
+                            LockPickSound.Stop(gameObject);
                             //outro som
                         }
                         break;

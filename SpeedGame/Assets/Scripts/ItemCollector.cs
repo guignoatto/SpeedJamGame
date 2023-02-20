@@ -9,6 +9,7 @@ public class ItemCollector : MonoBehaviour
 {
     [SerializeField] private List<InteractiveButtonHover> _interactiveObjects;
     [SerializeField] private List<Image> _images;
+    private LevelManager _levelManager;
     private int objectsFound = 0;
     private void Awake()
     {
@@ -24,6 +25,11 @@ public class ItemCollector : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        _levelManager = FindObjectOfType<LevelManager>();
+    }
+
     private void AddToInterface()
     {
         Color color = _images[objectsFound].color;
@@ -31,5 +37,9 @@ public class ItemCollector : MonoBehaviour
         
         _images[objectsFound].color = color;
         objectsFound += 1;
+        if (objectsFound == 6)
+        {
+            _levelManager.EndGame();
+        }
     }
 }
