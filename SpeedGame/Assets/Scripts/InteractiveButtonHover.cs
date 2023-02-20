@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class InteractiveButtonHover : MonoBehaviour
 {
-    public Action OnObjectInteraction;
+    public Action OnFindObject;
     public Action OnCantInteract;
 
     [SerializeField] private int _whoCanInteract;
@@ -16,15 +16,16 @@ public class InteractiveButtonHover : MonoBehaviour
     private PlayerMovement _player;
     private bool _startTimer = false;
     private float _timer = 0;
+    private float _taskTimeFix;
     private List<int> _playersInside = new List<int>();
     private InteractiveButtonView _interactiveButtonView;
     public AK.Wwise.Event LockPickSound;
+    public bool hasItem = false;
 
     private void Start()
     {
+        _taskTimeFix = _taskTime;
         _interactiveButtonView = GetComponent<InteractiveButtonView>();
-        
-
     }
 
     private void Update()
@@ -36,8 +37,16 @@ public class InteractiveButtonHover : MonoBehaviour
             {
                 switch (_objectType)
                 {
-                    case IObjectType.CHEST:
+                    case IObjectType.DOOR:
                         _objectDoor.GetComponent<Animator>().SetTrigger("OnOpenDoor");
+                        break;
+                    default:
+                        if (hasItem)
+                        {
+                            OnFindObject?.Invoke();
+                            //COLOCAR SOM DE ACHAR
+                            hasItem = false;
+                        }
                         break;
                 }
                 _interactiveButtonView.RefreshProgressBar(_timer,_taskTime);
@@ -56,15 +65,29 @@ public class InteractiveButtonHover : MonoBehaviour
                 _playersInside.Add(myNumber.myNumber);
                 _interactiveButtonView.ToggleProgressBarEnabled(true);
                 _startTimer = true;
+                if (myNumber.myNumber == 3)
+                {
+                    _taskTime /= 2;
+                }
                 switch (_objectType)
                 {
-                    case IObjectType.CHEST:
+                    case IObjectType.DOOR:
                         if (myNumber.myNumber == 3)
                         {
                             //som rápido
                         }
                         else
                             LockPickSound.Post(gameObject);
+                        break;
+                    case IObjectType.CHEST:
+                        if (myNumber.myNumber == 3)
+                        {
+                            //som rápido
+                        }
+                        else
+                        {
+                            //outro som
+                        }
                         break;
                     case IObjectType.WARDROBE:
                         if (myNumber.myNumber == 3)
@@ -102,15 +125,29 @@ public class InteractiveButtonHover : MonoBehaviour
                 _interactiveButtonView.RefreshProgressBar(0,0,true);
                 _timer = 0;
                 _startTimer = false;
+                if (myNumber.myNumber == 3)
+                {
+                    _taskTime = _taskTimeFix;
+                }
                 switch (_objectType)
                 {
-                    case IObjectType.CHEST:
+                    case IObjectType.DOOR:
                         if (myNumber.myNumber == 3)
                         {
                             //som rápido
                         }
                         else
                             LockPickSound.Stop(gameObject);
+                        break;
+                    case IObjectType.CHEST:
+                        if (myNumber.myNumber == 3)
+                        {
+                            //som rápido
+                        }
+                        else
+                        {
+                            //outro som
+                        }
                         break;
                     case IObjectType.WARDROBE:
                         if (myNumber.myNumber == 3)
