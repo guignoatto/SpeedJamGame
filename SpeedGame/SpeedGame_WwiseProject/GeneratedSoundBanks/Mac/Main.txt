@@ -18,5 +18,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	652907314	OpenDoor1	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Mac\SFX\556713__nachtmahrtv__squeaking-door_23D1A4C8.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\OpeningDoor\OpenDoor1		144112
 	777090758	OpenDoor2	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Mac\SFX\556713__nachtmahrtv__squeaking-door_33DEFE88.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\OpeningDoor\OpenDoor2		96096
 	789988452	Collect	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Mac\SFX\Collect_F1CB04F0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\Collect		42358
-	851453980	PressingButton	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Mac\SFX\CaixaPesada_92FEEB54.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\PressingButton		14732
+	851453980	PressingButton	C:\Users\Rafael\SpeedJamGame\SpeedGame\SpeedGame_WwiseProject\.cache\Mac\SFX\CaixaPesada_F18F1879.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Actions\PressingButton		19122
 

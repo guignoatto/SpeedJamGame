@@ -29,7 +29,7 @@
 				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{B255BA81-F2BE-B334-361D-9A7D039A25FD}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{491410C5-2EBF-A2EB-9F34-CDB21BA2267E}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -75,7 +75,7 @@
 				</File>
 				<File Id="851453980" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>CaixaPesada.wav</ShortName>
-					<CachePath>SFX/CaixaPesada_92FEEB54.wem</CachePath>
+					<CachePath>SFX/CaixaPesada_F18F1879.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -89,7 +89,7 @@
 						<MediaRef Id="316074698"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3930136735" Name="Dialogue" DurationType="OneShot" DurationMin="0.023877643" DurationMax="0.08509024">
+				<Event Id="3930136735" Name="Dialogue" DurationType="OneShot" DurationMin="0.054888114" DurationMax="0.08509024">
 					<MediaRefs>
 						<MediaRef Id="424463840"/>
 					</MediaRefs>
@@ -114,7 +114,7 @@
 						<MediaRef Id="777090758"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="764395510" Name="PressingButton" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.25006136" DurationMax="0.25006136">
+				<Event Id="764395510" Name="PressingButton" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.3103997" DurationMax="0.39198375">
 					<MediaRefs>
 						<MediaRef Id="851453980"/>
 					</MediaRefs>
@@ -122,5 +122,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{527789C4-705A-3DDA-2003-7D5D0FE4C685}</FileHash>
+	<FileHash>{365E9AA1-EF56-A039-8A80-20CAF15BC3A3}</FileHash>
 </SoundBanksInfo>
