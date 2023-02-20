@@ -772,6 +772,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 117720218}
     m_Modifications:
+    - target: {fileID: 3312827574758900585, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3312827574758900588, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3312827574758900589, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
       propertyPath: m_Name
       value: ChestEvent
@@ -820,6 +828,50 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: _objectDoor
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: _objectType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: _whoCanInteract
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: ChestSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 83910ac7a32d28e48b76ac438f133b05, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: PickUpSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: b81febf41b13e0c449d757e7e9ed42f7, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: ChestRatSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: c45af7475010d2343bbe20eeee575b8b, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: LockPickSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 1cccec0a8eeb6824085afd891fc7902d, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: WardrobeSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 14cf6c09c9078b24da2d289ddb478f4e, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: BookShelfSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: d03f32af99249c347917403d073aa94a, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: WardrobeRatSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 055467dc565580e47befba575f1e19c5, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: BookShelfRatSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ac4f2afd2e774914d83fbe21e5ce2fc4, type: 2}
     - target: {fileID: 3312827576236241104, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -1875,6 +1927,18 @@ PrefabInstance:
       propertyPath: _objectType
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: PickUpSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: b81febf41b13e0c449d757e7e9ed42f7, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: WardrobeSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 14cf6c09c9078b24da2d289ddb478f4e, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: WardrobeRatSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 055467dc565580e47befba575f1e19c5, type: 2}
     - target: {fileID: 3312827575193334466, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 2.9005795
@@ -2673,7 +2737,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
       propertyPath: _objectType
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: ChestSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 83910ac7a32d28e48b76ac438f133b05, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: PickUpSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: b81febf41b13e0c449d757e7e9ed42f7, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: ChestRatSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: c45af7475010d2343bbe20eeee575b8b, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: WardrobeSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: WardrobeRatSound.WwiseObjectReference
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3312827575193334466, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -2962,6 +3046,18 @@ PrefabInstance:
       propertyPath: _objectType
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: PickUpSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: b81febf41b13e0c449d757e7e9ed42f7, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: WardrobeSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 14cf6c09c9078b24da2d289ddb478f4e, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: WardrobeRatSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 055467dc565580e47befba575f1e19c5, type: 2}
     - target: {fileID: 3312827575193334466, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 2.9005795
@@ -3780,6 +3876,18 @@ PrefabInstance:
       propertyPath: _objectType
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: PickUpSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: b81febf41b13e0c449d757e7e9ed42f7, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: WardrobeSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 14cf6c09c9078b24da2d289ddb478f4e, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: WardrobeRatSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 055467dc565580e47befba575f1e19c5, type: 2}
     - target: {fileID: 3312827575193334466, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 2.9005795
@@ -4348,6 +4456,18 @@ PrefabInstance:
       propertyPath: _whoCanInteract
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: PickUpSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: b81febf41b13e0c449d757e7e9ed42f7, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: BookShelfSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: d03f32af99249c347917403d073aa94a, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: BookShelfRatSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ac4f2afd2e774914d83fbe21e5ce2fc4, type: 2}
     - target: {fileID: 3312827575193334466, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 4.450889
@@ -4572,6 +4692,18 @@ PrefabInstance:
       propertyPath: _whoCanInteract
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: PickUpSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: b81febf41b13e0c449d757e7e9ed42f7, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: WardrobeSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 14cf6c09c9078b24da2d289ddb478f4e, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: WardrobeRatSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 055467dc565580e47befba575f1e19c5, type: 2}
     - target: {fileID: 3312827575193334466, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 2.9005795
@@ -8327,7 +8459,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
       propertyPath: _objectType
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: ChestSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 83910ac7a32d28e48b76ac438f133b05, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: PickUpSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: b81febf41b13e0c449d757e7e9ed42f7, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: ChestRatSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: c45af7475010d2343bbe20eeee575b8b, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: WardrobeSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: WardrobeRatSound.WwiseObjectReference
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3312827575193334466, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -10163,6 +10315,18 @@ PrefabInstance:
       propertyPath: _objectType
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: PickUpSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: b81febf41b13e0c449d757e7e9ed42f7, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: WardrobeSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 14cf6c09c9078b24da2d289ddb478f4e, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: WardrobeRatSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 055467dc565580e47befba575f1e19c5, type: 2}
     - target: {fileID: 3312827575193334466, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 2.9005795
@@ -10467,6 +10631,18 @@ PrefabInstance:
       propertyPath: _objectType
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: PickUpSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: b81febf41b13e0c449d757e7e9ed42f7, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: WardrobeSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 14cf6c09c9078b24da2d289ddb478f4e, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: WardrobeRatSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 055467dc565580e47befba575f1e19c5, type: 2}
     - target: {fileID: 3312827575193334466, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 2.9005795
@@ -10675,6 +10851,18 @@ PrefabInstance:
       propertyPath: _objectType
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: PickUpSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: b81febf41b13e0c449d757e7e9ed42f7, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: WardrobeSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 14cf6c09c9078b24da2d289ddb478f4e, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: WardrobeRatSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 055467dc565580e47befba575f1e19c5, type: 2}
     - target: {fileID: 3312827575193334466, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 2.9005795
@@ -10954,6 +11142,18 @@ PrefabInstance:
       propertyPath: _whoCanInteract
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: PickUpSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: b81febf41b13e0c449d757e7e9ed42f7, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: BookShelfSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: d03f32af99249c347917403d073aa94a, type: 2}
+    - target: {fileID: 3312827574758900591, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
+      propertyPath: BookShelfRatSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ac4f2afd2e774914d83fbe21e5ce2fc4, type: 2}
     - target: {fileID: 3312827575193334466, guid: 28de0e492dda71547b6bef6518e10b80, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 4.450889
@@ -11173,6 +11373,14 @@ PrefabInstance:
       propertyPath: LockPickSound.WwiseObjectReference
       value: 
       objectReference: {fileID: 11400000, guid: 1cccec0a8eeb6824085afd891fc7902d, type: 2}
+    - target: {fileID: 914474857, guid: 989409a2a094a7d4f97aadbc3ad8ae04, type: 3}
+      propertyPath: BookShelfSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: d03f32af99249c347917403d073aa94a, type: 2}
+    - target: {fileID: 914474857, guid: 989409a2a094a7d4f97aadbc3ad8ae04, type: 3}
+      propertyPath: BookShelfRatSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ac4f2afd2e774914d83fbe21e5ce2fc4, type: 2}
     - target: {fileID: 1934039565, guid: 989409a2a094a7d4f97aadbc3ad8ae04, type: 3}
       propertyPath: m_Camera
       value: 

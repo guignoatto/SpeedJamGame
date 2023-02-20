@@ -29,7 +29,7 @@
 				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{8E998CA6-57C4-BDBA-7CD8-A0B8A27B4C31}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{76DD6EF7-C297-47D2-FCEE-20175DCAF23D}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -51,7 +51,7 @@
 				</File>
 				<File Id="233616582" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wardrobe.wav</ShortName>
-					<CachePath>SFX/Wardrobe_E6D48BAA.wem</CachePath>
+					<CachePath>SFX/Wardrobe_2A46ADC2.wem</CachePath>
 				</File>
 				<File Id="316074698" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PickUp.wav</ShortName>
@@ -59,7 +59,7 @@
 				</File>
 				<File Id="366269186" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MovingTrash.wav</ShortName>
-					<CachePath>SFX/MovingTrash_B3D707BF.wem</CachePath>
+					<CachePath>SFX/MovingTrash_D26D399F.wem</CachePath>
 				</File>
 				<File Id="389396892" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>556713__nachtmahrtv__squeaking-door.wav</ShortName>
@@ -71,7 +71,7 @@
 				</File>
 				<File Id="491947027" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>CameraShutDown.wav</ShortName>
-					<CachePath>SFX/CameraShutDown_3F63D735.wem</CachePath>
+					<CachePath>SFX/CameraShutDown_34B77710.wem</CachePath>
 				</File>
 				<File Id="652907314" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>556713__nachtmahrtv__squeaking-door.wav</ShortName>
@@ -83,32 +83,32 @@
 				</File>
 				<File Id="851453980" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>CaixaPesada.wav</ShortName>
-					<CachePath>SFX/CaixaPesada_F18F1879.wem</CachePath>
+					<CachePath>SFX/CaixaPesada_A6505234.wem</CachePath>
 				</File>
 				<File Id="856223558" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SearchingChest.wav</ShortName>
-					<CachePath>SFX/SearchingChest_CB2AD535.wem</CachePath>
+					<CachePath>SFX/SearchingChest_4746660B.wem</CachePath>
 				</File>
 				<File Id="928358533" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SearchingChest.wav</ShortName>
-					<CachePath>SFX/SearchingChest_79606F84.wem</CachePath>
+					<CachePath>SFX/SearchingChest_6A88A054.wem</CachePath>
 				</File>
 				<File Id="967368055" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MovingTrash.wav</ShortName>
-					<CachePath>SFX/MovingTrash_0E025E84.wem</CachePath>
+					<CachePath>SFX/MovingTrash_BFADAA3D.wem</CachePath>
 				</File>
 				<File Id="977178467" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wardrobe.wav</ShortName>
-					<CachePath>SFX/Wardrobe_4A11A6E1.wem</CachePath>
+					<CachePath>SFX/Wardrobe_4850F0BD.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2277168142" Name="BookShelf" MaxAttenuation="15" DurationType="OneShot" DurationMin="4.187693" DurationMax="4.187693">
+				<Event Id="2277168142" Name="BookShelf" DurationType="OneShot" DurationMin="4.187693" DurationMax="4.187693">
 					<MediaRefs>
 						<MediaRef Id="366269186"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1151725023" Name="BookShelfRat" MaxAttenuation="15" DurationType="OneShot" DurationMin="2.101573" DurationMax="2.101573">
+				<Event Id="1151725023" Name="BookShelfRat" DurationType="OneShot" DurationMin="2.101573" DurationMax="2.101573">
 					<MediaRefs>
 						<MediaRef Id="967368055"/>
 					</MediaRefs>
@@ -118,12 +118,12 @@
 						<MediaRef Id="216302046"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="632152062" Name="CameraShutDown" MaxAttenuation="15" DurationType="OneShot" DurationMin="3.0607576" DurationMax="3.0607576">
+				<Event Id="632152062" Name="CameraShutDown" DurationType="OneShot" DurationMin="3.0607576" DurationMax="3.0607576">
 					<MediaRefs>
 						<MediaRef Id="491947027"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3845573156" Name="CollectItem" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.46411812" DurationMax="0.46411812">
+				<Event Id="3845573156" Name="CollectItem" DurationType="OneShot" DurationMin="0.46411812" DurationMax="0.46411812">
 					<MediaRefs>
 						<MediaRef Id="316074698"/>
 					</MediaRefs>
@@ -133,7 +133,7 @@
 						<MediaRef Id="424463840"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="244100751" Name="LockPickDoor" MaxAttenuation="15" DurationType="OneShot" DurationMin="5.182551" DurationMax="5.5522537">
+				<Event Id="244100751" Name="LockPickDoor" DurationType="OneShot" DurationMin="5.182551" DurationMax="5.5522537">
 					<MediaRefs>
 						<MediaRef Id="105504107"/>
 						<MediaRef Id="389396892"/>
@@ -146,34 +146,34 @@
 						<MediaRef Id="159532433"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2122995345" Name="OpenDoor" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.7391491" DurationMax="1.1088518">
+				<Event Id="2122995345" Name="OpenDoor" DurationType="OneShot" DurationMin="0.7391491" DurationMax="1.1088518">
 					<MediaRefs>
 						<MediaRef Id="389396892"/>
 						<MediaRef Id="652907314"/>
 						<MediaRef Id="777090758"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="764395510" Name="PressingButton" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.3103997" DurationMax="0.39198375">
+				<Event Id="764395510" Name="PressingButton" DurationType="OneShot" DurationMin="0.3103997" DurationMax="0.39198375">
 					<MediaRefs>
 						<MediaRef Id="851453980"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="573117142" Name="SearchingChest" MaxAttenuation="15" DurationType="OneShot" DurationMin="4.692435" DurationMax="4.692435">
+				<Event Id="573117142" Name="SearchingChest" DurationType="OneShot" DurationMin="4.692435" DurationMax="4.692435">
 					<MediaRefs>
 						<MediaRef Id="928358533"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1856841079" Name="SearchingChestRat" MaxAttenuation="15" DurationType="OneShot" DurationMin="2.4955435" DurationMax="2.4955435">
+				<Event Id="1856841079" Name="SearchingChestRat" DurationType="OneShot" DurationMin="2.4955435" DurationMax="2.4955435">
 					<MediaRefs>
 						<MediaRef Id="856223558"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="119530393" Name="WarDrobe" MaxAttenuation="15" DurationType="OneShot" DurationMin="4.062176" DurationMax="4.062176">
+				<Event Id="119530393" Name="WarDrobe" DurationType="OneShot" DurationMin="4.062176" DurationMax="4.062176">
 					<MediaRefs>
 						<MediaRef Id="977178467"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3732297130" Name="WarDrobeRat" MaxAttenuation="15" DurationType="OneShot" DurationMin="2.53886" DurationMax="2.53886">
+				<Event Id="3732297130" Name="WarDrobeRat" DurationType="OneShot" DurationMin="2.53886" DurationMax="2.53886">
 					<MediaRefs>
 						<MediaRef Id="233616582"/>
 					</MediaRefs>
@@ -181,5 +181,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{19167467-8268-BC63-DCAD-A99487B3BC86}</FileHash>
+	<FileHash>{B5EC9A06-49A9-9681-FD2D-32183C60FBBF}</FileHash>
 </SoundBanksInfo>
