@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c202c51cdbc64b548ae5e65045069847, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b548775e6c8a7a347940ef68bed02a2f, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -391,6 +391,11 @@ MonoBehaviour:
   _whoCanInteract: 0
   _objectDoor: {fileID: 7600328395227311698}
   _taskTime: 5
+  _isDoor: 1
+  LockPickSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1cccec0a8eeb6824085afd891fc7902d, type: 2}
 --- !u!114 &914474858
 MonoBehaviour:
   m_ObjectHideFlags: 0

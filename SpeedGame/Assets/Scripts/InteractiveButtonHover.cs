@@ -11,6 +11,7 @@ public class InteractiveButtonHover : MonoBehaviour
     [SerializeField] private int _whoCanInteract;
     [SerializeField] private Animator _objectDoor;
     [SerializeField] private float _taskTime;
+    [SerializeField] private bool _isDoor = false;
     private BoxCollider2D _collider2D;
     private PlayerMovement _player;
     private bool _startTimer = false;
@@ -33,7 +34,8 @@ public class InteractiveButtonHover : MonoBehaviour
             _timer += Time.deltaTime;
             if (_timer >= _taskTime)
             {
-                _objectDoor.GetComponent<Animator>().SetTrigger("OnOpenDoor");
+                if (_isDoor)
+                    _objectDoor.GetComponent<Animator>().SetTrigger("OnOpenDoor");
                 _interactiveButtonView.RefreshProgressBar(_timer,_taskTime);
                 StartCoroutine(OpenDoorDelay());
             }
@@ -45,7 +47,7 @@ public class InteractiveButtonHover : MonoBehaviour
     {
         if (other.gameObject.TryGetComponent(out MyNumber myNumber))
         {
-            if (_whoCanInteract == myNumber.myNumber)
+            if (_whoCanInteract == myNumber.myNumber || _whoCanInteract == 5)
             {
                 _playersInside.Add(myNumber.myNumber);
                 _interactiveButtonView.ToggleProgressBarEnabled(true);
@@ -59,7 +61,7 @@ public class InteractiveButtonHover : MonoBehaviour
     {
         if (other.gameObject.TryGetComponent(out MyNumber myNumber))
         {
-            if (_whoCanInteract == myNumber.myNumber)
+            if (_whoCanInteract == myNumber.myNumber || _whoCanInteract == 5)
             {
                 _playersInside.Remove(myNumber.myNumber);
                 _interactiveButtonView.ToggleProgressBarEnabled(false);

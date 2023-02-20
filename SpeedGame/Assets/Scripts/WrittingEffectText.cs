@@ -14,6 +14,7 @@ public class WrittingEffectText : MonoBehaviour
     private bool isTyping = false;
 
     [SerializeField] private TextMeshProUGUI textComponent;
+    private IEnumerator typeEnumerator; 
 
     private void Start()
     {
@@ -28,8 +29,9 @@ public class WrittingEffectText : MonoBehaviour
                 typingSpeed /= 10;
             else
             {
+                if (typeEnumerator!= null) StopCoroutine(typeEnumerator);
+                isTyping = false;
                 textComponent.gameObject.transform.parent.gameObject.SetActive(false);
-                StopAllCoroutines();
             }
         }
     }
@@ -38,12 +40,14 @@ public class WrittingEffectText : MonoBehaviour
     {
         if (!isTyping)
         {
+            if (typeEnumerator != null) StopCoroutine(typeEnumerator);
+            typeEnumerator = TypeText();
+            StartCoroutine(typeEnumerator);
             textComponent.gameObject.transform.parent.gameObject.SetActive(true);
             typingSpeed = speed;
             fullText = text;
             currentText = "";
             isTyping = true;
-            StartCoroutine(TypeText());
         }
     }
 
@@ -56,8 +60,8 @@ public class WrittingEffectText : MonoBehaviour
             yield return new WaitForSeconds(typingSpeed);
         }
 
-        isTyping = false;
         yield return new WaitForSeconds(3);
+        isTyping = false;
         typingSpeed = normalTypingSpeed;
         textComponent.gameObject.transform.parent.gameObject.SetActive(false);
     }

@@ -52,30 +52,33 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             _boxCollider2D.gameObject.SetActive(!_boxCollider2D.gameObject.activeSelf);
+            _playerView.ChangeSelectedSprite(ActiveAgent);
         }
 
         if (Input.GetKeyDown(KeyCode.Q))
         {
             ActiveAgent = 0;
-            _cameraSwitch.GetNewTarget(_agents[ActiveAgent].gameObject.transform);
+            ChangePlayer();
         }
 
         if (Input.GetKeyDown(KeyCode.W))
         {
             ActiveAgent = 1;
-            _cameraSwitch.GetNewTarget(_agents[ActiveAgent].gameObject.transform);
+            ChangePlayer();
+
         }
 
         if (Input.GetKeyDown(KeyCode.E))
         {
             ActiveAgent = 2;
-            _cameraSwitch.GetNewTarget(_agents[ActiveAgent].gameObject.transform);
+            ChangePlayer();
+
         }
 
         if (Input.GetKeyDown(KeyCode.R))
         {
             ActiveAgent = 3;
-            _cameraSwitch.GetNewTarget(_agents[ActiveAgent].gameObject.transform);
+            ChangePlayer();
         }
     }
 
@@ -88,6 +91,12 @@ public class PlayerMovement : MonoBehaviour
 
         _agents[ActiveAgent].SetDestination(_targets[ActiveAgent].position);
 
+    }
+
+    private void ChangePlayer()
+    {
+        _cameraSwitch.GetNewTarget(_agents[ActiveAgent].gameObject.transform);
+        _playerView.ChangeSelectedSprite(ActiveAgent);
     }
 
     private void OnTriggerEnter2D(Collider2D col)
