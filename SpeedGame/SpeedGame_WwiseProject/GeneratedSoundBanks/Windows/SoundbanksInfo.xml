@@ -29,7 +29,7 @@
 				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{55B5DECD-DB1F-D52C-4EA2-515E330D64D2}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{19A518F6-C3DD-222D-C17B-F91B7643F4AA}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -181,5 +181,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D42A4F2E-590F-65E1-7CF5-7CEB7FC0F8E1}</FileHash>
+	<FileHash>{A33DF099-AB27-2E7D-3DB1-B3DBEABC8080}</FileHash>
 </SoundBanksInfo>
