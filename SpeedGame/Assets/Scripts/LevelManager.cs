@@ -20,6 +20,7 @@ public class LevelManager : MonoBehaviour
 
     public void MainMenu()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene("MainMenu");
     }
     private void Start()
@@ -124,8 +125,7 @@ public class LevelManager : MonoBehaviour
 
     void SaveHighScores()
     {
-        string json = JsonUtility.ToJson(highscore, true);
-        File.WriteAllText(highscoreFilePath, json);
+        Directory.CreateDirectory(Application.persistentDataPath + "/Maps");
     }
 
     public HighScores GetHighscores()
