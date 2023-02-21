@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Transform _arrow;
     [SerializeField] private BoxCollider2D _boxCollider2D;
     [SerializeField] private CameraSwitchSmooth _cameraSwitch;
+    public bool paused = false;
 
     public int ActiveAgent = 0;
 
@@ -84,6 +85,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void HandleMouseClick()
     {
+        if (paused)
+            return;
         var mousePosition = _camera.ScreenToWorldPoint(Input.mousePosition);
         mousePosition.z = _agents[ActiveAgent].transform.position.z;
         
@@ -95,6 +98,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void ChangePlayer()
     {
+        if (paused)
+            return;
         _cameraSwitch.GetNewTarget(_agents[ActiveAgent].gameObject.transform);
         _playerView.ChangeSelectedSprite(ActiveAgent);
     }

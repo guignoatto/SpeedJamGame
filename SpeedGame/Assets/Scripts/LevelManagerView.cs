@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class LevelManagerView : MonoBehaviour
 {
+    public GameObject pauseMenu;
     public GameObject leaderBoard;
     public TextMeshProUGUI timer;
     public TextMeshProUGUI actualScore;
